@@ -109,13 +109,10 @@
 								  </select>
 								</div>
 						    </div>
-							
-				
+					
+		
 						  </fieldset>
 						</form>   
-
-
-
 					</div>
 				</div><!--/span-->
 
@@ -255,7 +252,7 @@
 									</a>
 									
 								</td>
-								<<td class="center">
+								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
