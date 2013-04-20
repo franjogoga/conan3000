@@ -111,6 +111,7 @@
 								    <option selected value="0"></option>
 									<option value="1">Eventos Internos</option>
 									<option value="2">Eventos Externos</option>
+									<option value="3">Ventas</option>
 								  </select>
 								</div>
 							  </div>
@@ -172,10 +173,7 @@
 			</div>
 		</div>
 
-		<footer>
-			<p class="pull-left">&copy; <a href="http://usman.it" target="_blank">Tu papi</a> 2012</p>
-			<p class="pull-right">Powered by: <a href="http://usman.it/free-responsive-admin-template">Las Dos Virgenes</a></p>
-		</footer>
+		<jsp:include page="/IngSoft/general/inferior.jsp" />
 		
 	</div><!--/.fluid-container-->
 
