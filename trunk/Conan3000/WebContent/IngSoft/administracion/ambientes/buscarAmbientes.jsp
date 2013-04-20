@@ -75,7 +75,124 @@
 			<!-- content starts -->
 			<div id="content" class="span10">
 			<!-- content starts -->
-				 
+				 <div>
+				<ul class="breadcrumb">
+                  <li> <a href="#">Home</a> <span class="divider">/</span> </li>
+                  <li> <a href="#">Mantenimiento de Ambientes</a> <span class="divider">/</span></li>
+                  <li>Buscar Ambiente</li>
+				</ul>
+			</div>
+			
+			<div class="row-fluid sortable">		
+				
+                <div class="row-fluid sortable">
+                  <div class="box span12">
+                    <div class="box-header well" data-original-title>
+                      <h2><i class="icon-search"></i> BUSCAR AMBIENTE</h2>
+                      <div class="box-icon">
+							<a href="#" class="btn btn-minimize btn-round"><i class="icon-chevron-up"></i></a>
+							<a href="#" class="btn btn-close btn-round"><i class="icon-remove"></i></a>
+						</div>
+                    </div>
+                    <div class="box-content">
+                      <form class="form-horizontal">
+                        <fieldset>
+                        <div class="control-group">
+                          <label class="control-label" for="typeahead">Nombre:</label>
+                          <div class="controls">
+                            <input type="text" class="span6 typeahead" id="typeahead"  data-provide="typeahead" >
+                          </div>
+                        </div>
+                        <div class="control-group">
+                          <label class="control-label" for="selectError">Tipo:</label>
+                          <div class="controls">
+                            <select name="selectError" id="selectError" data-rel="chosen">
+                              <option>Deportivo</option>
+                              <option>Recreativo</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="control-group">
+                          <label class="control-label" for="selectError">Sede:</label>
+                          <div class="controls">
+                            <select name="selectError2" id="selectError2" data-rel="chosen">
+                              <option>Chosica</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-actions">
+                          <button type="submit" class="btn btn-primary">Buscar</button>
+                          <button type="reset" class="btn">Cancelar</button>
+                        </div>
+                      </fieldset>
+                      </form>
+                    </div>
+                  </div>
+                  <!--/span-->
+                </div>
+                <div class="row-fluid sortable">
+                  <div class="row-fluid sortable">
+                    <div class="box span12">
+                      <div class="box-header well" data-original-title>
+                        <h2><i class="icon-th-list"></i> RESULTADOS</h2>
+                      </div>
+                      <div class="box-content">
+                        <table class="table table-striped table-bordered bootstrap-datatable datatable">
+                          <!-- agregar nuevo boton -->
+                          <div  align="right"> <a class="btn btn-primary" href="#"> <i class="icon icon-add icon-white"></i> Agregar </a> </div>
+                          <thead>
+                            <tr>
+                              <th>Nombre</th>
+                              <th>Tipo</th>
+                              <th>Sede</th>
+                              <th>Acción</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Gimnasio</td>
+                              <td class="center">Deportivo</td>
+                              <td class="center">Chosica</td>
+                              <td class="center"><a class="btn btn-success" href="#"> <i class="icon-zoom-in icon-white"></i> Ver </a> <a class="btn btn-info" href="#"> <i class="icon-edit icon-white"></i> Modificar </a> <a class="btn btn-danger" href="#"> <i class="icon-trash icon-white"></i> Eliminar </a></td>
+                            </tr>
+                            <tr>
+                              <td>Piscina</td>
+                              <td class="center">Deportivo</td>
+                              <td class="center">Chosica</td>
+                              <td class="center"><a class="btn btn-success" href="#"> <i class="icon-zoom-in icon-white"></i> Ver </a> <a class="btn btn-info" href="#"> <i class="icon-edit icon-white"></i> Modificar </a> <a class="btn btn-danger" href="#"> <i class="icon-trash icon-white"></i> Eliminar </a></td>
+                            </tr>
+                            <tr>
+                              <td>Sala de juegos</td>
+                              <td class="center">Recreativo</td>
+                              <td class="center">Chosica</td>
+                              <td class="center"><a class="btn btn-success" href="#"> <i class="icon-zoom-in icon-white"></i> Ver </a> <a class="btn btn-info" href="#"> <i class="icon-edit icon-white"></i> Modificar </a> <a class="btn btn-danger" href="#"> <i class="icon-trash icon-white"></i> Eliminar </a></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <!--/span-->
+                  </div>
+                  <!--/span-->
+                </div>
+                <!--/span-->
+			
+			</div><!--/row-->
+                
+                
+                
+                
+                
+
+			<div class="row-fluid sortable"><!--/span--><!--/span-->
+			</div><!--/row-->
+			
+			<div class="row-fluid sortable"><!--/span--><!--/span-->
+			
+			</div><!--/row-->
+			
+			<div class="row-fluid sortable"><!--/span-->
+			</div><!--/row-->
 					<!-- content ends -->
 			</div><!--/#content.span10-->
 				</div><!--/fluid-row-->
