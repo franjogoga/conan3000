@@ -8,7 +8,7 @@
 						<li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Invitados</span></a></li>
 						<li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Servicios</span></a></li>
 						<li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Membresias</span></a></li>						
-                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Familiares</span></a></li>
+                        <li><a class="ajax-link" href="/Conan3000/IngSoft/ventas/promociones/buscarpromocion.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Familiares</span></a></li>
                         <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Socios</span></a></li>
                         <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Proveedores</span></a></li>
                         <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Productos</span></a></li>
