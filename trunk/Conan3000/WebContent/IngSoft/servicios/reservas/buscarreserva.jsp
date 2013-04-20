@@ -142,32 +142,32 @@
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                      
+									
+								</td>
+								<td class="center" align="center">
+									<a class="btn btn-success" href="#">
+										<i class="icon-ok icon-white"></i>  
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
-									
-								</td>
-								<td class="center">
-									<a class="btn btn-success" href="#">
-										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									
 								</td>
                                 </td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 						
 								</td>
@@ -175,14 +175,14 @@
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									
 								</td>
                                 </td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									
 								</td>
 							</tr>
@@ -193,14 +193,14 @@
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 									
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 									
 								</td>
@@ -208,34 +208,34 @@
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									
 								</td>
                                 </td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 						
 								</td>
                                 <td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 						
 								</td>
                                 <td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 						
 								</td>
@@ -245,20 +245,20 @@
 								<td class="center">
 									<a class="btn btn-danger" href="#">
 										<i class="icon-remove icon-white"></i> 
-										No disponible
+										Reservado
 									</a>
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 									
 								</td>
 								<<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 									
 								</td>
@@ -267,7 +267,7 @@
 									
 									<a class="btn btn-danger" href="#">
 										<i class=" icon-remove icon-white"></i> 
-										No disponible
+										Reservado
 									</a>
 								</td>
                                 <td class="center">
@@ -275,20 +275,20 @@
 									
 									<a class="btn btn-danger" href="#">
 										<i class=" icon-remove icon-white"></i> 
-										No disponible
+										Reservado
 									</a>
 								</td>
                                 <td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 						
 								</td>
                                 <td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 						
 								</td>
@@ -299,20 +299,20 @@
 								<td class="center">
 									<a class="btn btn-danger" href="#">
 										<i class="icon-remove icon-white"></i> 
-										No disponible
+										Reservado
 									</a>
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 									
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 									
 								</td>
@@ -321,7 +321,7 @@
 									
 									<a class="btn btn-danger" href="#">
 										<i class=" icon-remove icon-white"></i> 
-										No disponible
+										Reservado
 									</a>
 								</td>
                                 <td class="center">
@@ -329,19 +329,19 @@
 									
 									<a class="btn btn-danger" href="#">
 										<i class=" icon-remove icon-white"></i> 
-										No disponible
+										Reservado
 									</a>
 								</td>
                                 <td class="center">
 									<a class="btn btn-danger" href="#">
 										<i class="icon-remove icon-white"></i> 
-										No disponible
+										Reservado
 									</a>
 								</td>
                                 <td class="center">
 									<a class="btn btn-danger" href="#">
 										<i class="icon-remove icon-white"></i> 
-										No disponible
+										Reservado
 									</a>
 								</td>
 							</tr>
@@ -350,46 +350,46 @@
 								<td class="center">
 									<a class="btn btn-danger" href="#">
 										<i class="icon-remove icon-white"></i> 
-										No disponible
+										Reservado
 									</a>
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
-									</a>
-									
-								</td>
-								<td class="center">
-									<a class="btn btn-success" href="#">
-										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 									
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
+									</a>
+									
+								</td>
+								<td class="center">
+									<a class="btn btn-success" href="#">
+										<i class="icon-ok icon-white"></i>  
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									
 								</td>
                                 </td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									
 								</td>
                                 <td class="center">
 									<a class="btn btn-danger" href="#">
 										<i class="icon-remove icon-white"></i> 
-										No disponible
+										Reservado
 									</a>
 								</td>
                                 <td class="center">
 									<a class="btn btn-danger" href="#">
 										<i class="icon-remove icon-white"></i> 
-										No disponible
+										Reservado
 									</a>
 								</td>
 							</tr>
@@ -398,27 +398,27 @@
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 									
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 									
 								</td>
 								<td class="center">
 									<a class="btn btn-danger" href="#">
 										<i class="icon-remove icon-white"></i> 
-										No disponible
+										Reservado
 									</a>
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 									
 								</td>
@@ -426,19 +426,19 @@
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									
 								</td>
                                 <td class="center">
 									<a class="btn btn-danger" href="#">
 										<i class="icon-remove icon-white"></i> 
-										No disponible
+										Reservado
 									</a>
 								</td>
                                 <td class="center">
 									<a class="btn btn-danger" href="#">
 										<i class="icon-remove icon-white"></i> 
-										No disponible
+										Reservado
 									</a>
 								</td>
 							</tr>
@@ -447,39 +447,39 @@
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 									
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 									
 								</td>
 								<td class="center">
 									<a class="btn btn-danger" href="#">
 										<i class="icon-remove icon-white"></i> 
-										No disponible
+										Reservado
 									</a>
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
                               <td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 						
 							  </td>
                                 <td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 						
 								</td>
@@ -490,7 +490,7 @@
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									
 								</td>
 							</tr>
@@ -499,27 +499,27 @@
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 									
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 									
 								</td>
 								<td class="center">
 									<a class="btn btn-danger" href="#">
 										<i class="icon-remove icon-white"></i> 
-										No disponible
+										Reservado
 									</a>
 								</td>
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 									
 								</td>
@@ -527,20 +527,20 @@
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									
 								</td>
                                 <td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 						
 								</td>
                                 <td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-ok icon-white"></i>  
-										Disponible                                            
+										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 						
 								</td>
