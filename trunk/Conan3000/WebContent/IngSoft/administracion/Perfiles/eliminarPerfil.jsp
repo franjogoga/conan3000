@@ -9,7 +9,7 @@
 	<meta name="author" content="Dos Virgenes">
 
 	<!-- The styles -->
-	<link id="bs-css" href="css/bootstrap-cerulean.css" rel="stylesheet">    
+	<link id="bs-css" href="/css/bootstrap-cerulean.css" rel="stylesheet">    
 	<style type="text/css">
 	  body {
 		padding-bottom: 40px;
@@ -34,11 +34,6 @@
 	<link href='css/jquery.iphone.toggle.css' rel='stylesheet'>
 	<link href='css/opa-icons.css' rel='stylesheet'>
 	<link href='css/uploadify.css' rel='stylesheet'>
-
-	<!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
-	<!--[if lt IE 9]>
-	  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
 
 	<!-- The fav icon -->
 	<link rel="shortcut icon" href="img/favicon.ico">
@@ -158,10 +153,10 @@
 						<a href="#">Inicio</a> <span class="divider">/</span>
 					</li>
 					<li>
-						<a href="#">Mantenimiento de Perfiles de Usuario</a> <span class="divider">/</span>
+						<a href="#">Mantenimiento de Perfil de Usuario</a> <span class="divider">/</span>
 					</li>
 					<li>
-						Agregar Perfil de Usuario
+						Eliminar Perfil de Usuario
 					</li>
 				</ul>
 			</div>
@@ -169,7 +164,7 @@
 			  <div class="row-fluid sortable">
 			    <div class="box span12">
 			      <div class="box-header well" data-original-title>
-			        <h2> AGREGAR PERFIL DE USUARIO</h2>
+			        <h2> ELIMINAR PERFIL DE USUARIO</h2>
 		          </div>
 				  
 			      <div class="box-content">
@@ -177,21 +172,21 @@
 			          <fieldset>
 			            
 						<div class="control-group">
-						  <label class="control-label" for="typeahead">Perfil (*):</label>							  
+						  <label class="control-label" for="typeahead">Perfil :</label>							  
 						  <div class="controls">
-							<input type="text" class="span6 typeahead" id="typeahead"  data-provide="typeahead" data-items="4" ></input>								
+							<input type="text" class="span6 typeahead" id="typeahead"  data-provide="typeahead" data-items="4" value="ADM" disabled=""></input>								
 						  </div>
 						</div>
 						
 						<div class="control-group">
-						  <label class="control-label" for="typeahead">Descripci&oacute;n (*):</label>							  
+						  <label class="control-label" for="typeahead">Descripci&oacute;n :</label>							  
 						  <div class="controls">
-							<input type="text" class="span6 typeahead" id="typeahead"  data-provide="typeahead" data-items="4" ></input>								
+							<input type="text" class="span6 typeahead" id="typeahead"  data-provide="typeahead" data-items="4" value="Administrador Total del Sistema" disabled=""></input>								
 						  </div>
-						</div>								
+						</div>							
 						
 			            <div class="form-actions">
-			              <button type="submit" class="btn btn-primary">Agregar</button>
+			              <button type="submit" class="btn btn-primary">Eliminar</button>
 			              <button type="reset" class="btn">Cancelar</button>
 		                </div>
 		              </fieldset>

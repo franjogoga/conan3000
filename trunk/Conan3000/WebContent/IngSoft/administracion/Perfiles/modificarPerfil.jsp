@@ -9,7 +9,7 @@
 	<meta name="author" content="Dos Virgenes">
 
 	<!-- The styles -->
-	<link id="bs-css" href="css/bootstrap-cerulean.css" rel="stylesheet">    
+	<link id="bs-css" href="/css/bootstrap-cerulean.css" rel="stylesheet">    
 	<style type="text/css">
 	  body {
 		padding-bottom: 40px;
@@ -158,10 +158,10 @@
 						<a href="#">Inicio</a> <span class="divider">/</span>
 					</li>
 					<li>
-						<a href="#">Mantenimiento de Perfiles de Usuario</a> <span class="divider">/</span>
+						<a href="#">Mantenimiento de Perfil de Usuario</a> <span class="divider">/</span>
 					</li>
 					<li>
-						Agregar Perfil de Usuario
+						Modificar Perfil de Usuario
 					</li>
 				</ul>
 			</div>
@@ -169,7 +169,7 @@
 			  <div class="row-fluid sortable">
 			    <div class="box span12">
 			      <div class="box-header well" data-original-title>
-			        <h2> AGREGAR PERFIL DE USUARIO</h2>
+			        <h2> MODIFICAR PERFIL DE USUARIO</h2>
 		          </div>
 				  
 			      <div class="box-content">
@@ -179,19 +179,19 @@
 						<div class="control-group">
 						  <label class="control-label" for="typeahead">Perfil (*):</label>							  
 						  <div class="controls">
-							<input type="text" class="span6 typeahead" id="typeahead"  data-provide="typeahead" data-items="4" ></input>								
+							<input type="text" class="span6 typeahead" id="typeahead"  data-provide="typeahead" data-items="4" value="ADM"></input>								
 						  </div>
 						</div>
 						
 						<div class="control-group">
 						  <label class="control-label" for="typeahead">Descripci&oacute;n (*):</label>							  
 						  <div class="controls">
-							<input type="text" class="span6 typeahead" id="typeahead"  data-provide="typeahead" data-items="4" ></input>								
+							<input type="text" class="span6 typeahead" id="typeahead"  data-provide="typeahead" data-items="4" value="Administrador Total del Sistema"></input>								
 						  </div>
-						</div>								
+						</div>			
 						
 			            <div class="form-actions">
-			              <button type="submit" class="btn btn-primary">Agregar</button>
+			              <button type="submit" class="btn btn-primary">Guardar</button>
 			              <button type="reset" class="btn">Cancelar</button>
 		                </div>
 		              </fieldset>
