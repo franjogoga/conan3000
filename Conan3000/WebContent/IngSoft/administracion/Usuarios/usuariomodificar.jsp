@@ -240,7 +240,7 @@
                                  -->
                                 
                                 <div class="control-group">
-                                    <label class="control-label" for="textarea2">Descripción:</label>
+                                    <label class="control-label" for="textarea2">Descripci&oacuten:</label>
                                     <div class="controls">
                                    
                                         <!--
@@ -310,7 +310,7 @@
 
 		<footer>
 		   <p class="pull-left"><a href="http://usman.it/free-responsive-admin-template">Conan 3000</a> &copy;  2013</p>
-          <p class="pull-right">Powered by: <a href="http://usman.it/free-responsive-admin-template">Las dos virgenes</a></p>
+          <p class="pull-right">Powered by: <a href="http://usman.it/free-responsive-admin-template">Las dos v&iacutergenes</a></p>
 		</footer>
 		
 	</div><!--/.fluid-container-->
