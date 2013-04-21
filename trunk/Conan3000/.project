@@ -35,6 +35,21 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>WebContent/IngSoft/administracion/Usuarios/css</name>
+			<type>2</type>
+			<locationURI>CSS</locationURI>
+		</link>
+		<link>
+			<name>WebContent/IngSoft/administracion/Usuarios/img</name>
+			<type>2</type>
+			<locationURI>IMG</locationURI>
+		</link>
+		<link>
+			<name>WebContent/IngSoft/administracion/Usuarios/js</name>
+			<type>2</type>
+			<locationURI>JS</locationURI>
+		</link>
+		<link>
 			<name>WebContent/IngSoft/servicios/evento/css</name>
 			<type>2</type>
 			<locationURI>CSS</locationURI>
