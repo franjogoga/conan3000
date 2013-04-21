@@ -51,7 +51,7 @@
 	<![endif]-->
 
 	<!-- The fav icon -->
-	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="shortcut icon" href="img/conan_logo.png">
 		
 </head>
 
@@ -65,7 +65,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</a>
-			  <a class="brand" href="index.html"> <img alt="Conan Logo" src="conan_logo.png" /> <span>Conan<br> <span style="font-size:10px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3000</span></span></a>
+			  <a class="brand" href="index.html"> <img alt="Conan Logo" src="img/conan_logo.png" /> <span>Conan<br> <span style="font-size:10px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3000</span></span></a>
 				
 				<!-- theme selector starts -->
 				<div class="btn-group pull-right theme-container" >
