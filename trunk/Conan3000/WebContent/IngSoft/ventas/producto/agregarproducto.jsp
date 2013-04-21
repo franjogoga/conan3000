@@ -188,7 +188,7 @@
 						    <div class="control-group">
 							  <div class="control-group">
 
-							    <label class="control-label" for="typeahead6">Descripción: </label>
+							    <label class="control-label" for="typeahead6">Descripci&oacute;n: </label>
 							    <div class="controls">
 							      <input type="text" class="span6 typeahead" id="typeahead6"  data-provide="typeahead" data-items="4" >
 						        </div>
