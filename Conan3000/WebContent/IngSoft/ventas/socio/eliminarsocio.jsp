@@ -229,12 +229,12 @@
 						            </div>
 						          </div>
 							      <div class="control-group">
-							        <label class="control-label" for="disabledInput2">Dirección:</label>
+							        <label class="control-label" for="disabledInput2">Direcci&oacute;n:</label>
 							        <div class="controls">
 							          <input class="input-xlarge disabled" value="Jr. Vejestorio 1542 Urb. Mangomarca" id="disabledInput2" type="text" placeholder="Disabled input here" disabled="">
 						            </div>
 						          </div>
-							      <label class="control-label" for="disabledInput">Teléfono / Celular:</label>
+							      <label class="control-label" for="disabledInput">Tel&eacute;fono / Celular:</label>
 							      <div class="controls">
 							        <input class="input-xlarge disabled" value="993242351" id="disabledInput" type="text" placeholder="Disabled input here" disabled="">
 						          </div>

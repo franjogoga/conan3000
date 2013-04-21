@@ -226,12 +226,12 @@
 						          </div>
 						        </div>
 							    <div class="control-group">
-							      <label class="control-label" for="typeahead3">Dirección: </label>
+							      <label class="control-label" for="typeahead3">Direcci&oacute;n: </label>
 							      <div class="controls">
 							        <input type="text" value="Jr. Vejestorio 1542 Urb. Mangomarca "class="span6 typeahead" id="typeahead3"  data-provide="typeahead" data-items="4" >
 						          </div>
 						        </div>
-							    <label class="control-label" for="typeahead12">Teléfono / Celular: </label>
+							    <label class="control-label" for="typeahead12">Tel&eacute;fono / Celular: </label>
 							    <div class="controls">
 							      <input type="text" value="993242351"class="span6 typeahead" id="typeahead12"  data-provide="typeahead" data-items="4" >
 						        </div>
