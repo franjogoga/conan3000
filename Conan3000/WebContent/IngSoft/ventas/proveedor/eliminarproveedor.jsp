@@ -136,12 +136,14 @@
                         <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Usuarios</span></a></li>
                         <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Actividades</span></a></li>
                         <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Perfiles</span></a></li>
-                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Consecionarios</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Concesionarios</span></a></li>
                         <li><a class="ajax-link" href="/Conan3000/IngSoft/general/GenerarReportes.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Reportes</span></a></li>
                         <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Ambientes</span></a></li>
                         <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Reservas</span></a></li>
                         <li><a class="ajax-link" href="/Conan3000/IngSoft/servicios/evento/BuscarEvento.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Eventos</span></a></li>
                         <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Promociones</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Pagos</span></a></li>
+                          <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Venta de Productos</span></a></li>
 					</ul>
 					<label id="for-is-ajax" class="hidden-tablet" for="is-ajax"><input id="is-ajax" type="checkbox"> Ajax on menu</label>
 				</div><!--/.well -->
@@ -175,44 +177,71 @@
 		              <div class="control-group">
 		                <label class="control-label" for="typeahead7">Razón Social: </label>
 		                <div class="controls">
-		                  <input type="text" class="input-xlarge disabled" id="typeahead7"  data-provide="typeahead" disabled="">
+		                  <input type="text" class="input-xlarge disabled" id="typeahead7"  data-provide="typeahead" disabled="" value="BACKUS">
 	                    </div>
 	                  </div>
 		              <div class="control-group">
 		                <div class="control-group">
 		                  <label class="control-label" for="typeahead6">RUC: </label>
 		                  <div class="controls">
-		                    <input type="text" class="input-xlarge disabled" id="typeahead6"  data-provide="typeahead" data-items="4" disabled="" >
+		                    <input type="text" class="input-xlarge disabled" id="typeahead6"  data-provide="typeahead" data-items="4" disabled="" value="234544554545" >
 	                      </div>
 	                    </div>
 		                <div class="control-group">
 		                  <label class="control-label" for="typeahead4">Dirección: </label>
 		                  <div class="controls">
-		                    <input type="text" class="input-xlarge disabled" id="typeahead4"  data-provide="typeahead" data-items="4" disabled="">
+		                    <input type="text" class="input-xlarge disabled" id="typeahead4"  data-provide="typeahead" data-items="4" disabled="" value="Av Javier Prado 234">
+	                      </div>
+	                    </div>
+                         <div class="control-group">
+		                  <label class="control-label" for="selectError">Departamento:</label>
+		                  <div class="controls">
+		                    <select name="selectError3" id="selectError3" data-rel="chosen" class="disabled" disabled="">
+		                      <option>Lima</option>
+		                      <option>Trujillo</option>
+	                        </select>
+	                      </div>
+	                    </div>
+		                <div class="control-group">
+		                  <label class="control-label" for="selectError">Provincia:</label>
+		                  <div class="controls">
+		                    <select name="selectError" id="selectError" class="disabled"  data-rel="chosen" disabled="">
+		                      <option>Lima</option>
+		                      <option>Callao</option>
+	                        </select>
+	                      </div>
+	                    </div>
+		                <div class="control-group">
+		                  <label class="control-label" for="selectError">Distrito:</label>
+		                  <div class="controls">
+		                    <select name="selectError2" id="selectError2" class="disabled"  data-rel="chosen" disabled="">
+		                      <option>San Miguel</option>
+		                      <option>San Isidro</option>
+	                        </select>
 	                      </div>
 	                    </div>
 		                <div class="control-group">
 		                  <label class="control-label" for="typeahead8">Teléfono / Celular: </label>
 		                  <div class="controls">
-		                    <input type="text" class="input-xlarge disabled" id="typeahead8"  data-provide="typeahead" data-items="4" disabled="" >
+		                    <input type="text" class="input-xlarge disabled" id="typeahead8"  data-provide="typeahead" data-items="4" disabled="" value="2334545" >
 	                      </div>
 	                    </div>
 		                <div class="control-group">
 		                  <label class="control-label" for="typeahead9">Correo electrónico: </label>
 		                  <div class="controls">
-		                    <input type="text" class="input-xlarge disabled" id="typeahead9"  data-provide="typeahead" data-items="4" disabled="" >
+		                    <input type="text" class="input-xlarge disabled" id="typeahead9"  data-provide="typeahead" data-items="4" disabled=""value="servicios@backus.com.pe" >
 	                      </div>
 	                    </div>
 		                <div class="control-group">
 		                  <label class="control-label" for="typeahead10">Contacto: </label>
 		                  <div class="controls">
-		                    <input type="text" class="input-xlarge disabled" id="typeahead10"  data-provide="typeahead" data-items="4" disabled="">
+		                    <input type="text" class="input-xlarge disabled" id="typeahead10"  data-provide="typeahead" data-items="4" disabled="" value="Joel Sanchez">
 	                      </div>
 	                    </div>
 		                <div class="control-group">
 		                  <label class="control-label" for="typeahead2">DNI: </label>
 		                  <div class="controls">
-		                    <input type="text" class="input-xlarge disabled" id="typeahead2"  data-provide="typeahead" data-items="4" disabled="" >
+		                    <input type="text" class="input-xlarge disabled" id="typeahead2"  data-provide="typeahead" data-items="4" disabled="" value="34332444" >
 	                      </div>
 	                    </div>
 	                  </div>
@@ -257,7 +286,8 @@
 		</div>
 
 		<footer>
-		  <p class="pull-right">Powered by: <a href="http://usman.it/free-responsive-admin-template">Conan 3000</a></p>
+		  <p class="pull-left"><a href="http://usman.it/free-responsive-admin-template">Conan 3000</a> &copy;  2013</p>
+          <p class="pull-right">Powered by: <a href="http://usman.it/free-responsive-admin-template">Las dos virgenes</a></p>
 		</footer>
 		
 	</div><!--/.fluid-container-->

@@ -136,12 +136,14 @@
                         <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Usuarios</span></a></li>
                         <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Actividades</span></a></li>
                         <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Perfiles</span></a></li>
-                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Consecionarios</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Concesionarios</span></a></li>
                         <li><a class="ajax-link" href="/Conan3000/IngSoft/general/GenerarReportes.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Reportes</span></a></li>
                         <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Ambientes</span></a></li>
                         <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Reservas</span></a></li>
                         <li><a class="ajax-link" href="/Conan3000/IngSoft/servicios/evento/BuscarEvento.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Eventos</span></a></li>
                         <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Promociones</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Pagos</span></a></li>
+                          <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Venta de Productos</span></a></li>
 					</ul>
 					<label id="for-is-ajax" class="hidden-tablet" for="is-ajax"><input id="is-ajax" type="checkbox"> Ajax on menu</label>
 				</div><!--/.well -->
@@ -157,91 +159,113 @@
 					<p>You need to have <a href="http://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a> enabled to use this site.</p>
 				</div>
 			</noscript>
-			
-			<div id="content" class="span10">
-			  <!-- content starts -->
-			  <div>
-			    <ul class="breadcrumb">
-			      <li> <a href="#">Home</a> / <a href="#">Mantenimiento de Proveedores</a> / Agregar Proveedor</li>
-		        </ul>
-		      </div>
-			  <div class="row-fluid sortable">
-			    <div class="box span12">
-			      <div class="box-header well" data-original-title>
-			        <h2>AGREGAR PROVEEDOR</h2>
-		          </div>
-			      <div class="box-content">
-			        <form class="form-horizontal">
-			          <fieldset>
-			            <div class="control-group">
-			              <label class="control-label" for="typeahead7">Razón Social: </label>
-			              <div class="controls">
-			                <input type="text" class="span6 typeahead" id="typeahead7"  data-provide="typeahead" >
-		                  </div>
+		  <div id="content" class="span10">
+		    <!-- content starts -->
+		    <div>
+		      <ul class="breadcrumb">
+		        <li> <a href="#">Home</a> / <a href="#">Mantenimiento de Proveedores</a> / Modificar Proveedor</li>
+	          </ul>
+	        </div>
+		    <div class="row-fluid sortable">
+		      <div class="box span12">
+		        <div class="box-header well" data-original-title>
+		          <h2>MODIFICAR PROVEEDOR</h2>
+	            </div>
+		        <div class="box-content">
+		          <form class="form-horizontal">
+		            <fieldset>
+		              <div class="control-group">
+		                <label class="control-label" for="typeahead7">Razón Social (*): </label>
+		                <div class="controls">
+		                  <input type="text" class="span6 typeahead" id="typeahead7"  data-provide="typeahead" value="BACKUS" >
 		                </div>
-			            <div class="control-group">
-			              <div class="control-group">
-			                <label class="control-label" for="typeahead6">RUC: </label>
-			                <div class="controls">
-			                  <input type="text" class="span6 typeahead" id="typeahead6"  data-provide="typeahead" data-items="4" >
-		                    </div>
+	                  </div>
+		              <div class="control-group">
+		                <div class="control-group">
+		                  <label class="control-label" for="typeahead6">RUC (*): </label>
+		                  <div class="controls">
+		                    <input type="text" class="span6 typeahead" id="typeahead6"  data-provide="typeahead" data-items="4" value="234544554545" >
+		                  </div></div>
+		                <div class="control-group">
+		                  <label class="control-label" for="typeahead4">Dirección: </label>
+		                  <div class="controls">
+		                    <input type="text" class="span6 typeahead" id="typeahead4"  data-provide="typeahead" data-items="4"  value="Av. Javier Prado 234">
+	                      </div>
+	                    </div>
+                         <div class="control-group">
+		                  <label class="control-label" for="selectError">Departamento:</label>
+		                  <div class="controls">
+		                    <select name="selectError3" id="selectError3" data-rel="chosen">
+		                      <option>Lima</option>
+		                      <option>Trujillo</option>
+	                        </select>
 		                  </div>
-			              <div class="control-group">
-			                <label class="control-label" for="typeahead4">Dirección: </label>
-			                <div class="controls">
-			                  <input type="text" class="span6 typeahead" id="typeahead4"  data-provide="typeahead" data-items="4" >
-		                    </div>
+	                    </div>
+		                <div class="control-group">
+		                  <label class="control-label" for="selectError">Provincia:</label>
+		                  <div class="controls">
+		                    <select name="selectError" id="selectError" data-rel="chosen">
+		                      <option>Lima</option>
+		                      <option>Callao</option>
+	                        </select>
 		                  </div>
-			              <div class="control-group">
-			                <label class="control-label" for="typeahead8">Teléfono / Celular: </label>
-			                <div class="controls">
-			                  <input type="text" class="span6 typeahead" id="typeahead8"  data-provide="typeahead" data-items="4" >
-		                    </div>
+	                    </div>
+		                <div class="control-group">
+		                  <label class="control-label" for="selectError">Distrito:</label>
+		                  <div class="controls">
+		                    <select name="selectError2" id="selectError2" data-rel="chosen">
+		                      <option>San Miguel</option>
+		                      <option>San Isidro</option>
+	                        </select>
 		                  </div>
-			              <div class="control-group">
-			                <label class="control-label" for="typeahead9">Correo electrónico: </label>
-			                <div class="controls">
-			                  <input type="text" class="span6 typeahead" id="typeahead9"  data-provide="typeahead" data-items="4" >
-		                    </div>
-		                  </div>
-			              <div class="control-group">
-			                <label class="control-label" for="typeahead10">Contacto: </label>
-			                <div class="controls">
-			                  <input type="text" class="span6 typeahead" id="typeahead10"  data-provide="typeahead" data-items="4">
-		                    </div>
-		                  </div>
-			              <div class="control-group">
-			                <label class="control-label" for="typeahead2">DNI: </label>
-			                <div class="controls">
-			                  <input type="text" class="span6 typeahead" id="typeahead2"  data-provide="typeahead" data-items="4" >
-		                    </div>
-		                  </div>
-		                </div>
-			            <div class="form-actions">
-			              <button type="submit" class="btn btn-primary">Agregar</button>
-			              <button type="reset" class="btn">Cancelar</button>
-		                </div>
-		              </fieldset>
-		            </form>
-		          </div>
-		        </div>
-			    <!--/span-->
-		      </div>
-			  <!--/row-->
-			  <div class="row-fluid sortable">
-			    <!--/span-->
-		      </div>
-			  <!--/row-->
-			  <div class="row-fluid sortable">
-			    <!--/span-->
-		      </div>
-			  <!--/row-->
-			 
-
-		  
-       
-					<!-- content ends -->
-		  </div><!--/#content.span10-->
+	                    </div>
+		                <div class="control-group">
+		                  <label class="control-label" for="typeahead8">Teléfono / Celular: </label>
+		                  <div class="controls">
+		                    <input type="text" class="span6 typeahead" id="typeahead8"  data-provide="typeahead" data-items="4" value="987654321" >
+	                      </div>
+	                    </div>
+		                <div class="control-group">
+		                  <label class="control-label" for="typeahead9">Correo electrónico: </label>
+		                  <div class="controls">
+		                    <input type="text" class="span6 typeahead" id="typeahead9"  data-provide="typeahead" data-items="4" value="servicios@backus.com.pe" >
+	                      </div>
+	                    </div>
+		                <div class="control-group">
+		                  <label class="control-label" for="typeahead10">Contacto: </label>
+		                  <div class="controls">
+		                    <input type="text" class="span6 typeahead" id="typeahead10"  data-provide="typeahead" data-items="4" value="Joel Sanchez">
+	                      </div>
+	                    </div>
+		                <div class="control-group">
+		                  <label class="control-label" for="typeahead2">DNI: </label>
+		                  <div class="controls">
+		                    <input type="text" class="span6 typeahead" id="typeahead2"  data-provide="typeahead" data-items="4" value="234568976" >
+	                      </div>
+	                    </div>
+	                  </div>
+		              <div class="form-actions">
+		                <button type="submit" class="btn btn-primary">Guardar</button>
+		                <button type="reset" class="btn">Cancelar</button>
+	                  </div>
+	                </fieldset>
+	              </form>
+	            (*) Datos Obligatorios</div>
+	          </div>
+		      <!--/span-->
+	        </div>
+		    <!--/row-->
+		    <div class="row-fluid sortable">
+		      <!--/span-->
+	        </div>
+		    <!--/row-->
+		    <div class="row-fluid sortable">
+		      <!--/span-->
+	        </div>
+		    <!--/row-->
+		    <!-- content ends -->
+	      </div>
+		  <!--/#content.span10-->
 				</div><!--/fluid-row-->
 				
 		<hr>
@@ -261,7 +285,8 @@
 		</div>
 
 		<footer>
-		  <p class="pull-right">Powered by: <a href="http://usman.it/free-responsive-admin-template">Conan 3000</a></p>
+		   <p class="pull-left"><a href="http://usman.it/free-responsive-admin-template">Conan 3000</a> &copy;  2013</p>
+          <p class="pull-right">Powered by: <a href="http://usman.it/free-responsive-admin-template">Las dos virgenes</a></p>
 		</footer>
 		
 	</div><!--/.fluid-container-->
