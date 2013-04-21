@@ -12,7 +12,7 @@
 		http://twitter.com/halalit_usman
 	-->
 	<meta charset="utf-8">
-	<title>Template</title>
+	<title>Free HTML5 Bootstrap Admin Template</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Charisma, a fully featured, responsive, HTML5, Bootstrap admin template.">
 	<meta name="author" content="Muhammad Usman">
@@ -50,19 +50,106 @@
 	<![endif]-->
 
 	<!-- The fav icon -->
-	<link rel="shortcut icon" href="img/conan_logo.png">
+	<link rel="shortcut icon" href="img/favicon.ico">
 		
 </head>
 
 <body>
-		<jsp:include page="/IngSoft/general/superior.jsp" />
+		<!-- topbar starts -->
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="container-fluid">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".top-nav.nav-collapse,.sidebar-nav.nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+                <a class="brand" href="index.html"> <img alt="Conan Logo" src="img/conan_logo.png" /> <span>Conan<br> <span style="font-size:10px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3000</span></span></a>
+				<!-- theme selector starts -->
+				<div class="btn-group pull-right theme-container" >
+					<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+						<i class="icon-tint"></i><span class="hidden-phone"> Change Theme / Skin</span>
+						<span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu" id="themes">
+						<li><a data-value="classic" href="#"><i class="icon-blank"></i> Classic</a></li>
+						<li><a data-value="cerulean" href="#"><i class="icon-blank"></i> Cerulean</a></li>
+						<li><a data-value="cyborg" href="#"><i class="icon-blank"></i> Cyborg</a></li>
+						<li><a data-value="redy" href="#"><i class="icon-blank"></i> Redy</a></li>
+						<li><a data-value="journal" href="#"><i class="icon-blank"></i> Journal</a></li>
+						<li><a data-value="simplex" href="#"><i class="icon-blank"></i> Simplex</a></li>
+						<li><a data-value="slate" href="#"><i class="icon-blank"></i> Slate</a></li>
+						<li><a data-value="spacelab" href="#"><i class="icon-blank"></i> Spacelab</a></li>
+						<li><a data-value="united" href="#"><i class="icon-blank"></i> United</a></li>
+					</ul>
+				</div>
+				<!-- theme selector ends -->
+				
+				<!-- user dropdown starts -->
+				<div class="btn-group pull-right" >
+					<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+						<i class="icon-user"></i><span class="hidden-phone"> admin</span>
+						<span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Profile</a></li>
+						<li class="divider"></li>
+						<li><a href="login.html">Logout</a></li>
+					</ul>
+				</div>
+				<!-- user dropdown ends -->
+				
+				<div class="top-nav nav-collapse">
+					<ul class="nav">
+						<li><a href="#">Visitar Sitio</a></li>
+						<li>
+                            
+							<form class="navbar-search pull-left">
+								<input placeholder="Buscar" class="search-query span2" name="query" type="text">
+							</form>
+						</li>
+					</ul>
+				</div><!--/.nav-collapse -->
+                
+                
+			</div>
+		</div>
+	</div>
+	<!-- topbar ends -->
 		<div class="container-fluid">
 		<div class="row-fluid">
 				
 			<!-- left menu starts -->
-			<jsp:include page="/IngSoft/general/leftmenu.jsp" />
-						<!-- left menu ends -->
-			
+			<div class="span2 main-menu-span">
+				<div class="well nav-collapse sidebar-nav">
+					<ul class="nav nav-tabs nav-stacked main-menu">
+						<li><a class="ajax-link" href="/Conan300/IngSoft/general/index.jsp"><i class="icon-home"></i><span class="hidden-tablet"> Home</span></a></li>
+   						<li class="nav-header hidden-tablet">Mantenimientos</li>
+   						<li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Sedes</span></a></li>
+						<li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Empleados</span></a></li>
+						<li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Invitados</span></a></li>
+						<li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Servicios</span></a></li>
+						<li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Membresias</span></a></li>						
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Familiares</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Socios</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Proveedores</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Productos</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Usuarios</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Actividades</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Perfiles</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Concesionarios</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Reportes</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Ambientes</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Reservas</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Eventos</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Promociones</span></a></li>                        
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Pagos</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Venta de Productos</span></a></li>
+					</ul>
+					<label id="for-is-ajax" class="hidden-tablet" for="is-ajax"><input id="is-ajax" type="checkbox"> Ajax on menu</label>
+				</div><!--/.well -->
+			</div><!--/span-->
+			<!-- left menu ends -->
 			
 			<noscript>
 				<div class="alert alert-block span10">
@@ -73,9 +160,9 @@
 			
 			<div id="content" class="span10">
 			<!-- content starts -->
-			<div id="content" class="span10">
-			<!-- content starts -->
-				 <div>
+			
+
+			<div>
 				<ul class="breadcrumb">
                   <li> <a href="#">Home</a> <span class="divider">/</span> </li>
                   <li> <a href="#">Mantenimiento de Ambientes</a> <span class="divider">/</span></li>
@@ -145,7 +232,7 @@
                               <th>Nombre</th>
                               <th>Tipo</th>
                               <th>Sede</th>
-                              <th>Acción</th>
+                              <th>Acci&oacuten</th>
                             </tr>
                           </thead>
                           <tbody>
@@ -193,6 +280,7 @@
 			
 			<div class="row-fluid sortable"><!--/span-->
 			</div><!--/row-->
+    
 					<!-- content ends -->
 			</div><!--/#content.span10-->
 				</div><!--/fluid-row-->
@@ -213,7 +301,10 @@
 			</div>
 		</div>
 
-		<jsp:include page="/IngSoft/general/inferior.jsp" />
+		<footer>
+		  <p class="pull-left"><a href="http://usman.it/free-responsive-admin-template">Conan 3000</a> &copy;  2013</p>
+          <p class="pull-right">Powered by: <a href="http://usman.it/free-responsive-admin-template">Las dos v&iacutergenes</a></p>
+		</footer>
 		
 	</div><!--/.fluid-container-->
 
