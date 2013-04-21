@@ -36,7 +36,7 @@
 	<link href='css/uploadify.css' rel='stylesheet'>
 
 	<!-- The fav icon -->
-	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="shortcut icon" href="img/conan_logo.png">
 		
 </head>
 
@@ -170,13 +170,6 @@
 			      <div class="box-content">
 			        <form class="form-horizontal">
 			          <fieldset>
-			            
-							<div class="control-group">		
-							  <label class="control-label">C&oacute;digo</label>
-								<div class="controls">
-								  <span class="input-xlarge uneditable-input">0000001</span>
-								</div>
-							</div>
 							
 							<div class="control-group">
 							  <label class="control-label" for="typeahead">Nombres</label>							  
