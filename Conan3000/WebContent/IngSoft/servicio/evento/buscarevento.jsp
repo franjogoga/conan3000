@@ -232,7 +232,7 @@
                             <!-- agregar nuevo boton -->
                             
                             
-                            <div>
+                            <div align="right">
                             
                                 <a class="btn btn-primary" href="agregarevento.jsp">
                                     <i class="icon icon-add icon-white"></i>

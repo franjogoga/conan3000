@@ -152,7 +152,7 @@
 							</div>
 						  </fieldset>
 					  </form>   
-					(*)Campos Obligatorios
+					<span style="font-size:70%">(*)Campos Obligatorios</span>
 				  </div>
 				</div><!--/span-->
 

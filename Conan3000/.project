@@ -85,47 +85,47 @@
 			<locationURI>JS</locationURI>
 		</link>
 		<link>
-			<name>WebContent/IngSoft/servicios/evento/css</name>
+			<name>WebContent/IngSoft/servicio/evento/css</name>
 			<type>2</type>
 			<locationURI>CSS</locationURI>
 		</link>
 		<link>
-			<name>WebContent/IngSoft/servicios/evento/img</name>
+			<name>WebContent/IngSoft/servicio/evento/img</name>
 			<type>2</type>
 			<locationURI>IMG</locationURI>
 		</link>
 		<link>
-			<name>WebContent/IngSoft/servicios/evento/js</name>
+			<name>WebContent/IngSoft/servicio/evento/js</name>
 			<type>2</type>
 			<locationURI>JS</locationURI>
 		</link>
 		<link>
-			<name>WebContent/IngSoft/servicios/reporte/css</name>
+			<name>WebContent/IngSoft/servicio/reporte/css</name>
 			<type>2</type>
 			<locationURI>CSS</locationURI>
 		</link>
 		<link>
-			<name>WebContent/IngSoft/servicios/reporte/img</name>
+			<name>WebContent/IngSoft/servicio/reporte/img</name>
 			<type>2</type>
 			<locationURI>IMG</locationURI>
 		</link>
 		<link>
-			<name>WebContent/IngSoft/servicios/reporte/js</name>
+			<name>WebContent/IngSoft/servicio/reporte/js</name>
 			<type>2</type>
 			<locationURI>JS</locationURI>
 		</link>
 		<link>
-			<name>WebContent/IngSoft/servicios/reservas/css</name>
+			<name>WebContent/IngSoft/servicio/reservas/css</name>
 			<type>2</type>
 			<locationURI>CSS</locationURI>
 		</link>
 		<link>
-			<name>WebContent/IngSoft/servicios/reservas/img</name>
+			<name>WebContent/IngSoft/servicio/reservas/img</name>
 			<type>2</type>
 			<locationURI>IMG</locationURI>
 		</link>
 		<link>
-			<name>WebContent/IngSoft/servicios/reservas/js</name>
+			<name>WebContent/IngSoft/servicio/reservas/js</name>
 			<type>2</type>
 			<locationURI>JS</locationURI>
 		</link>

@@ -18,8 +18,8 @@
                         <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Concesionarios</span></a></li>
                         <li><a class="ajax-link" href="/Conan3000/IngSoft/general/generarreportes.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Reportes</span></a></li>
                         <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Ambientes</span></a></li>
-                        <li><a class="ajax-link" href="/Conan3000/IngSoft/servicios/reservas/buscarreserva.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Reservas</span></a></li>
-                        <li><a class="ajax-link" href="/Conan3000/IngSoft/servicios/evento/buscarevento.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Eventos</span></a></li>
+                        <li><a class="ajax-link" href="/Conan3000/IngSoft/servicio/reservas/buscarreserva.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Reservas</span></a></li>
+                        <li><a class="ajax-link" href="/Conan3000/IngSoft/servicio/evento/buscarevento.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Eventos</span></a></li>
                         <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Promociones</span></a></li>
                          <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Pagos</span></a></li>
                           <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Venta de Productos</span></a></li>
