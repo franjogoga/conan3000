@@ -1,8 +1,8 @@
 
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb">
 
-<!-- Mirrored from livedemo00.template-help.com/joomla_43780/ by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 10 Apr 2013 19:57:01 GMT -->
+<!-- Mirrored from livedemo00.template-help.com/joomla_43780/index.php/user-profile?view=registration by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 10 Apr 2013 19:57:02 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
@@ -10,10 +10,10 @@
 <base />
 <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 <meta name="templateframework" content="Gantry Framework for Joomla!"/>
-<meta name="description" content="In pede mi aliquet sit amet euismod in, auc ligula aliquam dapibus tincidunt beatae vi."/>
 <meta name="generator" content="Joomla! - Open Source Content Management"/>
-<title>Solicitud de eventos</title>
+<title>Solicitar evento</title>
 <link rel="stylesheet" href="css/modal.css" type="text/css"/>
+<link rel="stylesheet" href="css/calendar-jos.css" type="text/css" title="Green" media="all"/>
 <link rel="stylesheet" href="css/rokbox-style.css" type="text/css"/>
 <link rel="stylesheet" href="css/superfish.css" type="text/css"/>
 <link rel="stylesheet" href="css/grid-16.css" type="text/css"/>
@@ -29,29 +29,15 @@
 <link rel="stylesheet" href="css/font2.css" type="text/css"/>
 <link rel="stylesheet" href="css/font3.css" type="text/css"/>
 <link rel="stylesheet" href="css/font4.css" type="text/css"/>
-<link rel="stylesheet" href="css/elastislide.css" type="text/css"/>
-<link rel="stylesheet" href="css/flexslider.css" type="text/css"/>
-<link rel="stylesheet" href="css/conan3000.css" type="text/css" />
+<link rel="stylesheet" href="css/jquery-ui-1.8.21.custom.css" type="text/css"/>
 <style type="text/css">body{background:#2b2d2f;}#rt-copyright{background:#ffffff;}#rt-copyright .rt-container{background:#ffffff;}body a{color:#82919f;}body a:hover{color:#262b37;}a.moduleItemReadMore,a.k2ReadMore,a.moduleCustomLink{color:#ffffff;background:;}a.moduleItemReadMore:hover,a.k2ReadMore:hover,a.moduleCustomLink:hover{color:#ffffff;background:;}div.itemCommentsForm form input#submitCommentButton,input[type="submit"],button.button{color:#ffffff;background:;}div.itemCommentsForm form input#submitCommentButton:hover,input[type="submit"]:hover,button.button:hover{color:#ffffff;background:;}.sf-menu>li>a,.sf-menu>li>span{color:#ffffff;}.sf-menu>li>a:hover,.sf-menu>li>a:active,.sf-menu>li.sfHover>a,.sf-menu>li.sfHover>span,.sf-menu>li:hover>span,.sf-menu>li.current>a,.sf-menu>li.current>span,.sf-menu>li.active>a,.sf-menu>li.active>span{color:#ffffff;}.sf-menu ul>li>a,.sf-menu ul>li>span{color:#ffffff;}.sf-menu ul>li>a:hover,.sf-menu ul>li:hover>a,.sf-menu ul>li:hover>span,.sf-menu ul>li>a:active,.sf-menu ul>li.current>a,.sf-menu ul>li.current>span,.sf-menu ul>li.sfHover>a,.sf-menu ul>li.sfHover>span,.sf-menu ul>li.active>span,.sf-menu ul>li.active>a{color:#ffffff;}body{font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:20px;color:#82919f;}body #rt-logo{width:366px;height:123px;}</style>
-        
-        <!-- stylesheets -->
-  	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
-  	<link rel="stylesheet" href="css/slide.css" type="text/css" media="screen" />
-	
-  	<!-- PNG FIX for IE6 -->
-  	<!-- http://24ways.org/2007/supersleight-transparent-png-in-ie6 -->
-	<!--[if lte IE 6]>
-		<script type="text/javascript" src="js/pngfix/supersleight-min.js"></script>
-	<![endif]-->
-	 
-    <!-- jQuery - the core -->
-	<script src="js/jquery-1.3.2.min.js" type="text/javascript"></script>
-	<!-- Sliding effect -->
-	<script src="js/slide.js" type="text/javascript"></script>
-    
 <script src="js/mootools-core.js" type="text/javascript"></script>
 <script src="js/core.js" type="text/javascript"></script>
+<script src="js/mootools-more.js" type="text/javascript"></script>
 <script src="js/modal.js" type="text/javascript"></script>
+<script src="js/validate.js" type="text/javascript"></script>
+<script src="js/calendar.js" type="text/javascript"></script>
+<script src="js/calendar-setup.js" type="text/javascript"></script>
 <script src="ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" type="text/javascript"></script>
 <script src="js/jquerynoconflict.js" type="text/javascript"></script>
 <script src="ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js" type="text/javascript"></script>
@@ -66,10 +52,6 @@
 <script src="js/touch.gallery.js" type="text/javascript"></script>
 <script src="js/jquery.isotope.min.js" type="text/javascript"></script>
 <script src="js/scripts.js" type="text/javascript"></script>
-<script src="js/jquery.elastislide.js" type="text/javascript"></script>
-<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
-
-
 <script type="text/javascript">
 		window.addEvent('domready', function() {
 			SqueezeBox.initialize({});
@@ -77,7 +59,47 @@
 				parse: 'rel'
 			});
 		});
-var K2SitePath = 'index.html';
+var K2SitePath = '../index.html';
+function keepAlive() {	var myAjax = new Request({method: "get", url: "index.php"}).send();} window.addEvent("domready", function(){ keepAlive.periodical(840000); });
+window.addEvent('domready', function() {
+			$$('.hasTip').each(function(el) {
+				var title = el.get('title');
+				if (title) {
+					var parts = title.split('::', 2);
+					el.store('tip:title', parts[0]);
+					el.store('tip:text', parts[1]);
+				}
+			});
+			var JTooltips = new Tips($$('.hasTip'), { maxTitleChars: 50, fixed: false});
+		});
+Calendar._DN = new Array ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"); Calendar._SDN = new Array ("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"); Calendar._FD = 0; Calendar._MN = new Array ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"); Calendar._SMN = new Array ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"); Calendar._TT = {};Calendar._TT["INFO"] = "About the Calendar"; Calendar._TT["ABOUT"] =
+ "DHTML Date/Time Selector\n" +
+ "(c) dynarch.com 2002-2005 / Author: Mihai Bazon\n" +
+"For latest version visit: http://www.dynarch.com/projects/calendar/\n" +
+"Distributed under GNU LGPL.  See http://gnu.org/licenses/lgpl.html for details." +
+"\n\n" +
+"Date selection:\n" +
+"- Use the « and » buttons to select year\n" +
+"- Use the < and > buttons to select month\n" +
+"- Hold mouse button on any of the above buttons for faster selection.";
+Calendar._TT["ABOUT_TIME"] = "\n\n" +
+"Time selection:\n" +
+"- Click on any of the time parts to increase it\n" +
+"- or Shift-click to decrease it\n" +
+"- or click and drag for faster selection.";
+		Calendar._TT["PREV_YEAR"] = "Click to move to the previous year. Click and hold for a list of years."; Calendar._TT["PREV_MONTH"] = "Click to move to the previous month. Click and hold for a list of the months."; Calendar._TT["GO_TODAY"] = "Go to today"; Calendar._TT["NEXT_MONTH"] = "Click to move to the next month. Click and hold for a list of the months."; Calendar._TT["NEXT_YEAR"] = "Click to move to the next year. Click and hold for a list of years."; Calendar._TT["SEL_DATE"] = "Select a date."; Calendar._TT["DRAG_TO_MOVE"] = "Drag to move"; Calendar._TT["PART_TODAY"] = "Today"; Calendar._TT["DAY_FIRST"] = "Display %s first"; Calendar._TT["WEEKEND"] = "0,6"; Calendar._TT["CLOSE"] = "Close"; Calendar._TT["TODAY"] = "Today"; Calendar._TT["TIME_PART"] = "(Shift-)Click or Drag to change the value."; Calendar._TT["DEF_DATE_FORMAT"] = "%Y-%m-%d"; Calendar._TT["TT_DATE_FORMAT"] = "%a, %b %e"; Calendar._TT["WK"] = "wk"; Calendar._TT["TIME"] = "Time:";
+window.addEvent('domready', function() {Calendar.setup({
+				// Id of the input field
+				inputField: "jform_profile_dob",
+				// Format of the input field
+				ifFormat: "%Y-%m-%d",
+				// Trigger for the calendar (button ID)
+				button: "jform_profile_dob_img",
+				// Alignment (defaults to "Bl")
+				align: "Tl",
+				singleClick: true,
+				firstDay: 0
+				});});
 var rokboxPath = 'http://livedemo00.template-help.com/joomla_43780/plugins/system/rokbox/';
 		if (typeof(RokBox) !== 'undefined') {
 			window.addEvent('domready', function() {
@@ -118,41 +140,84 @@ var rokboxPath = 'http://livedemo00.template-help.com/joomla_43780/plugins/syste
 				});
 			});
 		};
+		window.addEvent('domready', function() {
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($$('a.modal-button'), {
+				parse: 'rel'
+			});
+		});
+			function isBrowserIE() {
+				return navigator.appName=="Microsoft Internet Explorer";
+			}
+			function jInsertEditorText( text, editor ) {
+				if (isBrowserIE()) {
+					if (window.parent.tinyMCE) {
+						window.parent.tinyMCE.selectedInstance.selection.moveToBookmark(window.parent.global_ie_bookmark);
+					}
+				}
+				tinyMCE.execInstanceCommand(editor, 'mceInsertContent',false,text);
+			}
+			var global_ie_bookmark = false;
+			function IeCursorFix() {
+				if (isBrowserIE()) {
+					tinyMCE.execCommand('mceInsertContent', false, '');
+					global_ie_bookmark = tinyMCE.activeEditor.selection.getBookmark(false);
+				}
+				return true;
+			}
   </script>
+<script type="text/javascript" src="js/tiny_mce.js"></script>
+<script type="text/javascript">
+				tinyMCE.init({
+					// General
+					directionality: "ltr",
+					editor_selector : "mce_editable",
+					language : "en",
+					mode : "specific_textareas",
+					skin : "default",
+					theme : "advanced",
+					// Cleanup/Output
+					inline_styles : true,
+					gecko_spellcheck : true,
+					entity_encoding : "raw",
+					extended_valid_elements : "hr[id|title|alt|class|width|size|noshade|style],img[class|src|border=0|alt|title|hspace|vspace|width|height|align|onmouseover|onmouseout|name|style],a[id|class|name|href|hreflang|target|title|onclick|rel|style]",
+					force_br_newlines : false, force_p_newlines : true, forced_root_block : 'p',
+					invalid_elements : "script,applet,iframe",
+					// URL
+					relative_urls : true,
+					remove_script_host : false,
+					document_base_url : "http://livedemo00.template-help.com/joomla_43780/",
+					// Layout
+					content_css : "http://livedemo00.template-help.com/joomla_43780/templates/system/css/editor.css",
+					// Advanced theme
+					theme_advanced_toolbar_location : "top",
+					theme_advanced_toolbar_align : "left",
+					theme_advanced_source_editor_height : "550",
+					theme_advanced_source_editor_width : "750",
+					theme_advanced_resizing : true,
+					theme_advanced_resize_horizontal : false,
+					theme_advanced_statusbar_location : "bottom", theme_advanced_path : true
+				});
+				</script>
 <script type="text/javascript">
 			jQuery(document).ready(function($) {
 				/*Image Preloader*/
 				$("span.catItemImage, span.itemImage, span.userItemImage, span.genericItemImage").preloader({
-					iconURL:"images/system/loading.gif"
+					iconURL:"/joomla_43780/templates/theme1287/images/system/loading.gif"
 				});
+				
+				$( ".datepicker" ).datepicker();
 			});
 		</script>
-
-        
-        
-        
-
-    
- 
 </head>
 <body  class="cssstyle-style1 respmenu-type-sfmenu col16"id="all">
-
-<!-- Panel -->
-<jsp:include page="/Club/general/tbnl.jsp" />
- <!--panel -->
-
-
-
-
-
-
 		<div id="body-wrapper">
 			<div id="rt-iewarn">
 				<div class="rt-container">
 										<div class="clear"></div>
 				</div>
 			</div>
-		<div id="wrapper" class=" homepage view-itemlist option-com_k2 task-category">
+		<div id="wrapper" class="  view-registration option-com_users task-">
 			<div class="header-content">
 												<div id="rt-top" >
 					<div class="rt-container">
@@ -165,8 +230,8 @@ var rokboxPath = 'http://livedemo00.template-help.com/joomla_43780/plugins/syste
 	</script>
 	<!--<![endif]-->
 <ul class="sf-menu ">
-<jsp:include page="/Club/general/menu.jsp" />
-</ul>
+<li class="item-101"><a href="index.html" >Home</a></li><li class="item-116 deeper parent"><a href="about.html" >About Us</a><ul><li class="item-127"><a href="our-history.html" >Our history</a></li><li class="item-123"><a href="faqs.html" >FAQs</a></li></ul></li><li class="item-117"><a href="services.html" >Services</a></li><li class="item-118 deeper parent"><span class="separator">Gallery</span>
+<ul><li class="item-119"><a href="columns-2.html" >Columns 2</a></li><li class="item-120"><a href="columns-3.html" >Columns 3</a></li><li class="item-121"><a href="columns-4.html" >Columns 4</a></li></ul></li><li class="item-122"><a href="testimonials.html" >Testimonials</a></li><li class="item-126"><a href="staff.html" >Staff</a></li><li class="item-114"><a href="contacts.html" >Contacts</a></li><div class="clear"></div></ul>
 <script type="text/javascript">
 	// initialise plugins
 	jQuery(function(){
@@ -209,479 +274,136 @@ var rokboxPath = 'http://livedemo00.template-help.com/joomla_43780/plugins/syste
 						<div class="clear"></div>
 					</div>
 				</div>
-																<div id="rt-showcase">
-					<div class="rt-container homepage">
-						<div class="rt-grid-16 rt-alpha rt-omega">
-                    <div class="slider">
-                    <div class="rt-block">
-<div id="k2ModuleBox120" class="k2ItemsBlock slider">
-<div class="flex-nav-container">
-  <div id="flexslider-slider" class="flexslider">
-	<ul class="slides">
-	    <li class="slide" data-thumb="">
-	      <!-- Plugins: BeforeDisplay -->
-	      <!-- K2 Plugins: K2BeforeDisplay -->
-		      		      <a class="moduleItemImage" href="#" title="Continue reading &quot;Praesent vestibulum&quot;">
-		      		      </a>
-		      	<table width="100%" border="0">
-		      	<form>		   	      	
-		      	<tr><td class="td-blank"">&nbsp;</td><td class="td-label">Nombre de Empresa</td><td class="td-input"><input type="text" class="conaninput"/></td></tr>
-		      	
-		      	<tr><td class="td-blank"">&nbsp;</td><td class="td-label">RUC</td><td class="td-input"><input type="text" class="conaninput" /></td></tr>
-		      	<tr><td class="td-blank"">&nbsp;</td><td class="td-label">RUC</td><td class="td-input"><input type="text" class="conaninput"/></td></tr>
-		      	<tr><td class="td-blank"">&nbsp;</td><td class="td-label">Tipo de evento</td><td class="td-input"><input type="text" class="conaninput" disabled/></td></tr>
-		      	<tr><td class="td-blank"">&nbsp;</td><td class="td-label">Fecha Inicio</td><td class="td-input"><input type="text" class="conaninput" id="datepicker"/></td></tr>
-		      	<tr><td class="td-blank"">&nbsp;</td><td class="td-label">Fecha Fin</td><td class="td-input"><input type="text" class="conaninput" id="datepicker" /></td></tr>
-		      	
-		      	</form>
-		      	</table>
-		      	
-		      
-		 <div class="flex-caption"> 
-		 <div class="flexCaptionInner">
-	      <!-- Plugins: AfterDisplayTitle -->
-	      <!-- K2 Plugins: K2AfterDisplayTitle -->
-	      <!-- Plugins: BeforeDisplayContent -->
-	      <!-- K2 Plugins: K2BeforeDisplayContent -->
-	      <div class="clr"></div>
-	      <div class="clr"></div>
-	      <!-- Plugins: AfterDisplayContent -->
-	      <!-- K2 Plugins: K2AfterDisplayContent -->
-	      <!-- Plugins: AfterDisplay -->
-	      <!-- K2 Plugins: K2AfterDisplay -->
-	      		  </div>
-		</div>
-	    </li>
-    	</ul>
-  </div>
-  </div>
-</div>
-<script type="text/javascript">
-(function($){ 
-   $(window).load(function(){
-		$('#flexslider-slider').flexslider({
-		 	namespace: 'flex-',     												//{NEW} String: Prefix string attached to the class of every element generated by the plugin
-		    selector: '.slides > li',       										//{NEW} Selector: Must match a simple pattern. '{container} > {slide}' -- Ignore pattern at your own peril
-			animation: 'fade',     				//String: Select your animation type, "fade" or "slide"
-			easing: 'easeOutQuad',           				//{NEW} String: Determines the easing method used in jQuery transitions. jQuery easing plugin is supported!
-		    direction: 'horizontal', 	   				//String: Select the sliding direction, "horizontal" or "vertical"
-		    reverse: false,       					//{NEW} Boolean: Reverse the animation direction
-		    animationLoop: true,			//Boolean: Should the animation loop? If false, directionNav will received "disable" classes at either end
-		    smoothHeight:  true,    		 //{NEW} Boolean: Allow height of the slider to animate smoothly in horizontal mode  
-		    startAt:  0,              		 //Integer: The slide that the slider should start on. Array notation (0 = first slide)
-		    slideshow: true,           		 //Boolean: Animate slider automatically
-		    slideshowSpeed: 8000,  		//Integer: Set the speed of the slideshow cycling, in milliseconds
-		    animationSpeed: 600,  		//Integer: Set the speed of animations, in milliseconds
-		    initDelay: 600,            		//{NEW} Integer: Set an initialization delay, in milliseconds
-		    randomize: false,             		//Boolean: Randomize slide order
-		    // Usability features
-		    pauseOnAction: true,     		//Boolean: Pause the slideshow when interacting with control elements, highly recommended.
-		    pauseOnHover: true,       		//Boolean: Pause the slideshow when hovering over slider, then resume when no longer hovering
-		    useCSS: true,                   		//{NEW} Boolean: Slider will use CSS3 transitions if available
-		    touch: true,                     		//{NEW} Boolean: Allow touch swipe navigation of the slider on touch-enabled devices
-		    video: true,                     		//{NEW} Boolean: If using video in the slider, will prevent CSS3 3D Transforms to avoid graphical glitches
-		    // Primary Controls
-		    controlNav: true,               	//Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
-		    directionNav: false,              //Boolean: Create navigation for previous/next navigation? (true/false)
-		    prevText:"Prev",           			//String: Set the text for the "previous" directionNav item
-		    nextText: "Next",               		//String: Set the text for the "next" directionNav item
-		    // Secondary Navigation
-		    keyboard: false,                 		//Boolean: Allow slider navigating via keyboard left/right keys
-		    multipleKeyboard: false,      //{NEW} Boolean: Allow keyboard navigation to affect multiple sliders. Default behavior cuts out keyboard navigation with more than one slider present.
-		    mousewheel: false,              	//{UPDATED} Boolean: Requires jquery.mousewheel.js (https://github.com/brandonaaron/jquery-mousewheel) - Allows slider navigating via mousewheel
-		    pausePlay: false,               		//Boolean: Create pause/play dynamic element
-		    pauseText: "",             		//String: Set the text for the "pause" pausePlay item
-		    playText: "Next",               		//String: Set the text for the "play" pausePlay item
-		    // Special properties
-		    controlsContainer: ".flex-nav-container",     							 //{UPDATED} jQuery Object/Selector: Declare which container the navigation elements should be appended too. Default container is the FlexSlider element. Example use would be $(".flexslider-container"). Property is ignored if given element is not found.
-		    manualControls: "",            //{UPDATED} jQuery Object/Selector: Declare custom control navigation. Examples would be $(".flex-control-nav li") or "#tabs-nav li img", etc. The number of elements in your controlNav should match the number of slides/tabs.
-		    sync: "",                       			//{NEW} Selector: Mirror the actions performed on this slider with another slider. Use with care.
-		    asNavFor: "",                   		//{NEW} Selector: Internal property exposed for turning the slider into a thumbnail navigation for another slider
-		    // Carousel Options
-		    itemWidth: 0,                   	//{NEW} Integer: Box-model width of individual carousel items, including horizontal borders and padding.
-		    itemMargin: 0,                  //{NEW} Integer: Margin between carousel items.
-		    minItems: 0,                    	//{NEW} Integer: Minimum number of carousel items that should be visible. Items will resize fluidly when below this.
-		    maxItems: 0,                    	//{NEW} Integer: Maxmimum number of carousel items that should be visible. Items will resize fluidly when above this limit.
-		    move: 0,                        		//{NEW} Integer: Number of carousel items that should move on animation. If 0, slider will move all visible items.
-		    // Callback API
-		    start: function(){},            //Callback: function(slider) - Fires when the slider loads the first slide
-		    before: function(){},           //Callback: function(slider) - Fires asynchronously with each slider animation
-		    after: function(){},            //Callback: function(slider) - Fires after each slider animation completes
-		    end: function(){},              //Callback: function(slider) - Fires when the slider reaches the last slide (asynchronous)
-		    added: function(){},            //{NEW} Callback: function(slider) - Fires after a slide is added
-		    removed: function(){}           //{NEW} Callback: function(slider) - Fires after a slide is removed
-		});
-	});
-})(jQuery);     
-</script>
-            </div>
-                </div>
-</div>
-						<div class="clear"></div>
-					</div>
-				</div>
 			</div>
 			<div class="content-top-bg">
 				<div class="inner">
 										<div id="rt-maintop">
 						<div class="rt-container">
-							<div class="rt-grid-16 rt-alpha rt-omega">
-                    <div class="articles">
-                    <div class="rt-block">
-<div id="k2ModuleBox139" class="k2ItemsBlock articles">
-	  <ul>
-        <li class="even">
-      <!-- Plugins: BeforeDisplay -->
-      <!-- K2 Plugins: K2BeforeDisplay -->
-      <!-- Plugins: AfterDisplayTitle -->
-      <!-- K2 Plugins: K2AfterDisplayTitle -->
-      <!-- Plugins: BeforeDisplayContent -->
-      <!-- K2 Plugins: K2BeforeDisplayContent -->
-            <div class="moduleItemIntrotext">
-	      	      <h3 class="moduleItemTitle">Membresias<span>venta</span></h3>
-      	      	<ul class="menu-list">
-<li><a href="#">Proin dictum elementu</a></li>
-<li><a href="#">Fusce euismod consequa</a></li>
-<li><a href="#">Lorem ipsum dolor sit</a></li>
-<li><a href="#">Consectetuer adipis</a></li>
-<li><a href="#">Pellentesque sed dolor</a></li>
-<li><a href="#">Aliquam congue fermentu</a></li>
-<li><a href="#">Mauris accumsan</a></li>
-</ul>
-      </div>
-      <div class="clr"></div>
-      <div class="clr"></div>
-      <!-- Plugins: AfterDisplayContent -->
-      <!-- K2 Plugins: K2AfterDisplayContent -->
-						<a class="moduleItemReadMore" href="index.php/component/k2/item/11-top.html">
-				More Info			</a>
-      <!-- Plugins: AfterDisplay -->
-      <!-- K2 Plugins: K2AfterDisplay -->
-      <div class="clr"></div>
-    </li>
-        <li class="odd">
-      <!-- Plugins: BeforeDisplay -->
-      <!-- K2 Plugins: K2BeforeDisplay -->
-      <!-- Plugins: AfterDisplayTitle -->
-      <!-- K2 Plugins: K2AfterDisplayTitle -->
-      <!-- Plugins: BeforeDisplayContent -->
-      <!-- K2 Plugins: K2BeforeDisplayContent -->
-            <div class="moduleItemIntrotext">
-	      	      <h3 class="moduleItemTitle">Bungalows <span>reservas</span></h3>
-      	      	<p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta.</p>
-<p>Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-      </div>
-      <div class="clr"></div>
-      <div class="clr"></div>
-      <!-- Plugins: AfterDisplayContent -->
-      <!-- K2 Plugins: K2AfterDisplayContent -->
-						<a class="moduleItemReadMore" href="index.php/component/k2/item/12-fly-fishing.html">
-				More Info			</a>
-      <!-- Plugins: AfterDisplay -->
-      <!-- K2 Plugins: K2AfterDisplay -->
-      <div class="clr"></div>
-    </li>
-        <li class="even">
-      <!-- Plugins: BeforeDisplay -->
-      <!-- K2 Plugins: K2BeforeDisplay -->
-      <!-- Plugins: AfterDisplayTitle -->
-      <!-- K2 Plugins: K2AfterDisplayTitle -->
-      <!-- Plugins: BeforeDisplayContent -->
-      <!-- K2 Plugins: K2BeforeDisplayContent -->
-            <div class="moduleItemIntrotext">
-	      	      <h3 class="moduleItemTitle">Deportes<span>clases</span></h3>
-      	      	<ul class="menu-list">
-<li><a href="#">Proin dictum elementu</a></li>
-<li><a href="#">Fusce euismod consequa</a></li>
-<li><a href="#">Lorem ipsum dolor sit</a></li>
-<li><a href="#">Consectetuer adipis</a></li>
-<li><a href="#">Pellentesque sed dolor</a></li>
-<li><a href="#">Aliquam congue fermentu</a></li>
-<li><a href="#">Mauris accumsan</a></li>
-</ul>
-      </div>
-      <div class="clr"></div>
-      <div class="clr"></div>
-      <!-- Plugins: AfterDisplayContent -->
-      <!-- K2 Plugins: K2AfterDisplayContent -->
-						<a class="moduleItemReadMore" href="index.php/component/k2/item/13-new-line.html">
-				More Info			</a>
-      <!-- Plugins: AfterDisplay -->
-      <!-- K2 Plugins: K2AfterDisplay -->
-      <div class="clr"></div>
-    </li>
-        <li class="odd lastItem">
-      <!-- Plugins: BeforeDisplay -->
-      <!-- K2 Plugins: K2BeforeDisplay -->
-      <!-- Plugins: AfterDisplayTitle -->
-      <!-- K2 Plugins: K2AfterDisplayTitle -->
-      <!-- Plugins: BeforeDisplayContent -->
-      <!-- K2 Plugins: K2BeforeDisplayContent -->
-            <div class="moduleItemIntrotext">
-	      	      <h3 class="moduleItemTitle">Eventos<span>reservas</span></h3>
-      	      	<p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi</p>
-      </div>
-      <div class="clr"></div>
-      <div class="clr"></div>
-      <!-- Plugins: AfterDisplayContent -->
-      <!-- K2 Plugins: K2AfterDisplayContent -->
-						<a class="moduleItemReadMore" href="index.php/component/k2/item/14-save.html">
-				More Info			</a>
-      <!-- Plugins: AfterDisplay -->
-      <!-- K2 Plugins: K2AfterDisplay -->
-      <div class="clr"></div>
-    </li>
-      </ul>
-</div>
-            </div>
-                </div>
-</div>
-							<div class="clear"></div>
+														<div class="clear"></div>
 						</div>
 					</div>
-			<div id="rt-main" class="mb6-sa5-sb5">
+			<div id="rt-main" class="mb16">
                 <div class="rt-container">
                     <div class="rt-containerInner">
                     <div class="rt-divider">
-                    <div class="rt-grid-6 ">
+                    <div class="rt-grid-16 ">
                                                 						<div class="rt-block">
 	                        <div id="rt-mainbody">
 								<div class="component-content">
-<!-- Start K2 Category Layout -->
-<div id="k2Container" class="itemListView">
-<!-- Page title -->
-<!-- RSS feed icon -->
-<!-- Blocks for current category and subcategories -->
-			<div class="itemListCategoriesBlock">
-	<!-- Category block -->
-				<div class="itemListCategory">
-			<!-- Item add link -->
-			<!-- Category image -->
-			<!-- Category title -->
-											<h2>Binvenidos a Nuestro Club</h2>
-			<!-- Category description -->
-											<div class="text">In pede mi aliquet sit amet euismod in, auc ligula aliquam dapibus tincidunt beatae vi.</div>					
-					<!-- K2 Plugins: K2CategoryDisplay -->
-					<div class="clr"></div>
-				</div>
-	<!-- Subcategories -->
-					</div>					
-<!-- Item list -->
-		<div class="itemList">
-				<!-- Leading items -->
-			<div id="itemListLeading">
-									<div class="K2ItemsRow K2Row-0">
-				<div class="itemContainer itemContainerLast" style="width:100.0%;">
-<!-- Start K2 Item Layout -->
-<div class="catItemView groupLeading">
-	<!-- Plugins: BeforeDisplay -->
-	<!-- K2 Plugins: K2BeforeDisplay -->
-<!--Item Header - START -->
-<!--Item Header - END -->
-	<!-- Plugins: AfterDisplayTitle -->
-	<!-- K2 Plugins: K2AfterDisplayTitle -->
-<!-- Item Rating -->
-<!--Item body - START -->
-	<div class="catItemBody">
-		<!-- Plugins: BeforeDisplayContent -->
-		<!-- K2 Plugins: K2BeforeDisplayContent -->
-<!-- Item Image -->
-<!-- Item introtext -->		
-					<div class="catItemIntroText">
-				<p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a. Praesent vestibulum molestie lacus.</p>
-					<!-- Item "read more..." link -->
-								</div>
-		<div class="clr"></div>
-<!-- Item extra fields -->		
-		<!-- Plugins: AfterDisplayContent -->
-		<!-- K2 Plugins: K2AfterDisplayContent -->
-		<div class="clr"></div>
+<!-- K2 user register form -->
+<form action="#" enctype="multipart/form-data" method="post" id="josForm" name="josForm" class="form-validate">
+		<div class="componentheading">
+		<h2>Solicitud de evento</h2>
 	</div>
-<!--Item body - END -->
-	<div class="clr"></div>
-<!-- Item video -->	
-<!-- Item image gallery -->
-<!-- Anchor link to comments below -->	
-<!-- Item date modified -->
-	<!-- Plugins: AfterDisplay -->
-	<!-- K2 Plugins: K2AfterDisplay -->
-	<div class="clr"></div>
-</div>
-<!-- End K2 Item Layout -->
-					<div class="clr"></div>
-				</div>
-								<div class="clr"></div>
-					</div>
-											</div>
-			<div class="clr"></div>
-			<div class="clr"></div>
+		<div id="k2Container" class="k2AccountPage">
+				<h3 class="k2ProfileHeading">Detalles de la empresa</h3>
+			<dl>
+				<dt class="key"><label id="namemsg" for="name">Nombre de la empresa</label></dt>
+				<dd><input type="text" name="" id="name" size="40" value="" class="inputbox required" maxlength="50" />
+					*</dd>
+				<dt class="key"><label id="usernamemsg" for="username">RUC</label></dt>
+				<dd><input type="text" id="username" name="" size="40" value="" class="inputbox required" maxlength="25" />*</dd>
+				<dt class="key"><label id="usernamemsg" for="username">URL</label></dt>
+				<dd><input type="text" id="username" name="" size="40" value="" class="inputbox required" maxlength="25" /></dd>
+				
+			</dl>
+				<h3 class="k2ProfileHeading">Detalles del evento</h3>
+			<!-- K2 attached fields -->
+			<dl>
+				<dt class="key"><label id="emailmsg" for="email">Tipo de evento</label></dt>
+				<dd><input type="text" id="email" name="" size="40" value="" class="inputbox required" maxlength="100" /> *</dd>
+				<dt class="key"><label id="email2msg" for="email2">Sede</label></dt>
+				<dd><input type="text" id="email2" name="jform[email2]" size="40" value="" class="inputbox required" maxlength="100" />*</dd>
+				<dt class="key"><label id="pwmsg" for="password">Ambientes a utilizar</label></dt>
+				<dd><input class="inputbox required" type="password" id="password" name="" size="40" value="" />*</dd>
+				<dt><label id="jform_profile_dob-lbl" for="jform_profile_dob" class="hasTip" title="Seleccione la fecha de inicio">Fecha de inicio</label></dt>	
+								<dd><input type="text" title="" name="jform[profile][dob]" id="jform_profile_dob1" value="" class="datepicker" />*</dd>
+				<dt><label id="jform_profile_dob-lbl" for="jform_profile_dob" class="hasTip" title="Seleccione la fecha de fin">Fecha de fin</label></dt>	
+								<dd><input type="text" title="" name="jform[profile][dob]" id="jform_profile_dob2" value="" class="datepicker" />*</dd>								
+				<dt class="key"><label id="pw2msg" for="password2">Numero de asistentes</label></dt>
+				<dd><input class="inputbox required validate-passverify" type="password" id="password2" name="" size="40" value="" />*</dd>
+				<!--  <dt class="key gender"><label id="gendermsg" for="gender">Gender</label></dt>
+				<dd class="gender">
+	<input type="radio" name="gender" id="genderm" value="m"  checked="checked" />
+	<label for="genderm" id="genderm-lbl" class="radiobtn">Male</label>
+	<input type="radio" name="gender" id="genderf" value="f"  />
+	<label for="genderf" id="genderf-lbl" class="radiobtn">Female</label>
+</dd>-->
+				<dt class="key editor"><label id="descriptionmsg" for="description">Descricion del evento</label></dt>
+				<dd class="editor"><textarea name="description" id="description" cols="" rows="" style="width: 100%; height:250px;" class="mce_editable"></textarea>
+<div class="toggle-editor">
+<div class="button2-left"><div class="blank"><a href="#" onclick="tinyMCE.execCommand('mceToggleEditor', false, 'description');return false;" title="Toggle editor">Toggle editor</a></div></div></div>
+</dd>
+				<dt class="key"><label id="imagemsg" for="image">User image (avatar)</label></dt>
+				<dd>
+					<input type="file" id="image" name="image"/>
+									</dd>
+				<dt class="key"><label id="urlmsg" for="url">URL</label></dt>
+				<dd><input type="text" size="50" value="" name="url" id="url"/></dd>
+			</dl>
+<!-- Joomla! 1.6+ JForm implementation -->
+																							<h3 class="k2ProfileHeading">
+							User Profile						</h3>
+										<dl>
+																			<dt class="key">
+									<label id="jform_profile_address1-lbl" for="jform_profile_address1" class="hasTip" title="Address 1::Choose an option for the field Address1">Address 1:</label>																			<span class="optional">(optional)</span>
+																	</dt>
+								<dd><input type="text" name="jform[profile][address1]" id="jform_profile_address1" value="" class="inputbox" size="30"/></dd>
+																									<dt class="key">
+									<label id="jform_profile_address2-lbl" for="jform_profile_address2" class="hasTip" title="Address 2::Choose an option for the field Address2">Address 2:</label>																			<span class="optional">(optional)</span>
+																	</dt>
+								<dd><input type="text" name="jform[profile][address2]" id="jform_profile_address2" value="" class="inputbox" size="30"/></dd>
+																									<dt class="key">
+									<label id="jform_profile_city-lbl" for="jform_profile_city" class="hasTip" title="City::Choose an option for the field City">City:</label>																			<span class="optional">(optional)</span>
+																	</dt>
+								<dd><input type="text" name="jform[profile][city]" id="jform_profile_city" value="" class="inputbox" size="30"/></dd>
+																									<dt class="key">
+									<label id="jform_profile_region-lbl" for="jform_profile_region" class="hasTip" title="Region::Choose an option for the field Region">Region:</label>																			<span class="optional">(optional)</span>
+																	</dt>
+								<dd><input type="text" name="jform[profile][region]" id="jform_profile_region" value="" class="inputbox" size="30"/></dd>
+																									<dt class="key">
+									<label id="jform_profile_country-lbl" for="jform_profile_country" class="hasTip" title="Country::Choose an option for the field Country">Country:</label>																			<span class="optional">(optional)</span>
+																	</dt>
+								<dd><input type="text" name="jform[profile][country]" id="jform_profile_country" value="" class="inputbox" size="30"/></dd>
+																									<dt class="key">
+									<label id="jform_profile_postal_code-lbl" for="jform_profile_postal_code" class="hasTip" title="Postal / ZIP Code::Choose an option for the field Postal Code">Postal / ZIP Code:</label>																			<span class="optional">(optional)</span>
+																	</dt>
+								<dd><input type="text" name="jform[profile][postal_code]" id="jform_profile_postal_code" value="" class="inputbox" size="30"/></dd>
+																									<dt class="key">
+									<label id="jform_profile_phone-lbl" for="jform_profile_phone" class="hasTip" title="Phone::Choose an option for the field Phone">Phone:</label>																			<span class="optional">(optional)</span>
+																	</dt>
+								<dd><input type="text" name="jform[profile][phone]" id="jform_profile_phone" value="" size="30"/></dd>
+																									<dt class="key">
+									<label id="jform_profile_website-lbl" for="jform_profile_website" class="hasTip" title="Web site::Choose an option for the field Web Site">Web site:</label>																			<span class="optional">(optional)</span>
+																	</dt>
+								<dd><input type="text" name="jform[profile][website]" id="jform_profile_website" value="" size="30"/></dd>
+																									<dt class="key">
+									<label id="jform_profile_favoritebook-lbl" for="jform_profile_favoritebook" class="hasTip" title="Favourite Book::Choose an option for the field Favourite Book">Favourite Book:</label>																			<span class="optional">(optional)</span>
+																	</dt>
+								<dd><input type="text" name="jform[profile][favoritebook]" id="jform_profile_favoritebook" value="" class="inputbox" size="30"/></dd>
+																									<dt class="key">
+									<label id="jform_profile_aboutme-lbl" for="jform_profile_aboutme" class="hasTip" title="About Me::Choose an option for the field About Me.">About Me:</label>																			<span class="optional">(optional)</span>
+																	</dt>
+								<dd><textarea name="jform[profile][aboutme]" id="jform_profile_aboutme" cols="30" rows="5"></textarea></dd>
+																									<dt class="key">
+									
+																</dl>
+		<div class="k2AccountPageNotice">Fields marked with an asterisk (*) are required.</div>
+		<div class="k2AccountPageUpdate">
+			<button class="button validate" type="submit">
+				Register			</button>
 		</div>
-		<!-- Pagination -->
 	</div>
-<!-- End K2 Category Layout -->
-<!-- JoomlaWorks "K2" (v2.5.7) | Learn more about K2 at http://getk2.org -->
+	<input type="hidden" name="option" value="" />
+	<input type="hidden" name="task" value="" />
+	<input type="hidden" name="id" value="0" />
+	<input type="hidden" name="gid" value="0" />
+	<input type="hidden" name="K2UserForm" value="1" />
+	<input type="hidden" name="9b807e7b23b676fed0a6173c1c98c479" value="1" /></form>
 								</div>
 	                        </div>
 						</div>
                                                                     </div>
-                                <div class="rt-grid-5 ">
-                <div id="rt-sidebar-a">
-                                    <div class="indent">
-                    <div class="rt-block">
-                				<div class="module-title">
-                	<h2 class="title">Nuestros Servicios</h2>
-				</div>
-<div id="k2ModuleBox136" class="k2ItemsBlock indent">
-	  <ul>
-        <li class="even lastItem">
-      <!-- Plugins: BeforeDisplay -->
-      <!-- K2 Plugins: K2BeforeDisplay -->
-      <!-- Plugins: AfterDisplayTitle -->
-      <!-- K2 Plugins: K2AfterDisplayTitle -->
-      <!-- Plugins: BeforeDisplayContent -->
-      <!-- K2 Plugins: K2BeforeDisplayContent -->
-            <div class="moduleItemIntrotext">
-      	      	<p>Praesent vestibulum molestie lacus. Aenean nonummy henerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor. Fusce feugiat malesuada odio. Phasellus porta. Fusce suscipit varius mi.</p>
-      </div>
-      <div class="clr"></div>
-      <div class="clr"></div>
-      <!-- Plugins: AfterDisplayContent -->
-      <!-- K2 Plugins: K2AfterDisplayContent -->
-      <!-- Plugins: AfterDisplay -->
-      <!-- K2 Plugins: K2AfterDisplay -->
-      <div class="clr"></div>
-    </li>
-      </ul>
-</div>
-            </div>
-                </div>
-                </div>
-            </div>
-            <div class="rt-grid-5 ">
-                <div id="rt-sidebar-b">
-                                    <div class="carousel indent">
-                    <div class="rt-block">
-                				<div class="module-title">
-                	<h2 class="title">Testimonials</h2>
-				</div>
-                                <div id="k2ModuleBox137" class="k2ItemsBlock carousel indent">
-<div id="elastislide" class="es-carousel-wrapper">
-  <div class="es-carousel">
-  <ul>
-        <li class="even">
-      <!-- Plugins: BeforeDisplay -->
-      <!-- K2 Plugins: K2BeforeDisplay -->
-      <!-- Plugins: AfterDisplayTitle -->
-      <!-- K2 Plugins: K2AfterDisplayTitle -->
-      <!-- Plugins: BeforeDisplayContent -->
-      <!-- K2 Plugins: K2BeforeDisplayContent -->
-      <div class="moduleItemIntrotext">
-	      	      <a class="moduleItemImage" href="http://livedemo00.template-help.com/joomla_43780/index.php/component/k2/item/88-praesent-vestibulum-molestie-lacus-aenean-nonummy-henerit-mauris" title="Continue reading &quot;Praesent vestibulum molestie lacus. Aenean nonummy henerit mauris.&quot;">
-	      	<img src="http://livedemo00.template-help.com/joomla_43780/media/k2/items/cache/398a8bc2e3f7f879ff0986359513be80_XS.jpg" alt="Praesent vestibulum molestie lacus. Aenean nonummy henerit mauris."/>
-	      </a>
-        	  			  <p>" Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit ."</p>
-<p class="name"><strong>Jessica Priston,</strong> <a href="#">demolink.org</a></p> <!-- Last digit is a number of introtext symbols displayed -->
-        	      </div>
-      <div class="clr"></div>
-      <div class="clr"></div>
-      <!-- Plugins: AfterDisplayContent -->
-      <!-- K2 Plugins: K2AfterDisplayContent -->
-      <!-- Plugins: AfterDisplay -->
-      <!-- K2 Plugins: K2AfterDisplay -->
-      <div class="clr"></div>
-    </li>
-        <li class="odd">
-      <!-- Plugins: BeforeDisplay -->
-      <!-- K2 Plugins: K2BeforeDisplay -->
-      <!-- Plugins: AfterDisplayTitle -->
-      <!-- K2 Plugins: K2AfterDisplayTitle -->
-      <!-- Plugins: BeforeDisplayContent -->
-      <!-- K2 Plugins: K2BeforeDisplayContent -->
-      <div class="moduleItemIntrotext">
-	      	      <a class="moduleItemImage" href="http://livedemo00.template-help.com/joomla_43780/index.php/component/k2/item/89-praesent-vestibulum-molestie-lacus-aenean-nonummy-henerit-mauris" title="Continue reading &quot;Praesent vestibulum molestie lacus. Aenean nonummy henerit mauris.&quot;">
-	      	<img src="http://livedemo00.template-help.com/joomla_43780/media/k2/items/cache/780149ddfa09fbd86eb140fe6810d770_XS.jpg" alt="Praesent vestibulum molestie lacus. Aenean nonummy henerit mauris."/>
-	      </a>
-        	  			  <p>" Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit ."</p>
-<p class="name"><strong>Patrick Winstone,</strong> <a href="#">demolink.org</a></p> <!-- Last digit is a number of introtext symbols displayed -->
-        	      </div>
-      <div class="clr"></div>
-      <div class="clr"></div>
-      <!-- Plugins: AfterDisplayContent -->
-      <!-- K2 Plugins: K2AfterDisplayContent -->
-      <!-- Plugins: AfterDisplay -->
-      <!-- K2 Plugins: K2AfterDisplay -->
-      <div class="clr"></div>
-    </li>
-        <li class="even">
-      <!-- Plugins: BeforeDisplay -->
-      <!-- K2 Plugins: K2BeforeDisplay -->
-      <!-- Plugins: AfterDisplayTitle -->
-      <!-- K2 Plugins: K2AfterDisplayTitle -->
-      <!-- Plugins: BeforeDisplayContent -->
-      <!-- K2 Plugins: K2BeforeDisplayContent -->
-      <div class="moduleItemIntrotext">
-	      	      <a class="moduleItemImage" href="http://livedemo00.template-help.com/joomla_43780/index.php/component/k2/item/90-praesent-vestibulum-molestie-lacus-aenean-nonummy-henerit-mauris" title="Continue reading &quot;Praesent vestibulum molestie lacus. Aenean nonummy henerit mauris.&quot;">
-	      	<img src="http://livedemo00.template-help.com/joomla_43780/media/k2/items/cache/3707d8f2be163bd14c78cf07586f13bb_XS.jpg" alt="Praesent vestibulum molestie lacus. Aenean nonummy henerit mauris."/>
-	      </a>
-        	  			  <p>" Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit ."</p>
-<p class="name"><strong>Mark Polo,</strong> <a href="#">demolink.org</a></p> <!-- Last digit is a number of introtext symbols displayed -->
-        	      </div>
-      <div class="clr"></div>
-      <div class="clr"></div>
-      <!-- Plugins: AfterDisplayContent -->
-      <!-- K2 Plugins: K2AfterDisplayContent -->
-      <!-- Plugins: AfterDisplay -->
-      <!-- K2 Plugins: K2AfterDisplay -->
-      <div class="clr"></div>
-    </li>
-        <li class="odd lastItem">
-      <!-- Plugins: BeforeDisplay -->
-      <!-- K2 Plugins: K2BeforeDisplay -->
-      <!-- Plugins: AfterDisplayTitle -->
-      <!-- K2 Plugins: K2AfterDisplayTitle -->
-      <!-- Plugins: BeforeDisplayContent -->
-      <!-- K2 Plugins: K2BeforeDisplayContent -->
-      <div class="moduleItemIntrotext">
-	      	      <a class="moduleItemImage" href="http://livedemo00.template-help.com/joomla_43780/index.php/component/k2/item/91-praesent-vestibulum-molestie-lacus-aenean-nonummy-henerit-mauris" title="Continue reading &quot;Praesent vestibulum molestie lacus. Aenean nonummy henerit mauris.&quot;">
-	      	<img src="images/737344dd8934cc52da9f7f85f2627abb_XS.jpg" alt="Praesent vestibulum molestie lacus. Aenean nonummy henerit mauris."/>
-	      </a>
-        	  			  <p>" Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit ."</p>
-<p class="name"><strong>John White,</strong> <a href="#">demolink.org</a></p> <!-- Last digit is a number of introtext symbols displayed -->
-        	      </div>
-      <div class="clr"></div>
-      <div class="clr"></div>
-      <!-- Plugins: AfterDisplayContent -->
-      <!-- K2 Plugins: K2AfterDisplayContent -->
-      <!-- Plugins: AfterDisplay -->
-      <!-- K2 Plugins: K2AfterDisplay -->
-      <div class="clr"></div>
-    </li>
-      </ul>
-</div>
-</div>
-</div>
-<!-- //elastislide script settings -->
-<script type="text/javascript">
-(function($){ 
-   $(window).load(function(){
-  	$('#elastislide').elastislide({
-    		speed     : 450,  // animation speed
-        easing    : '', // animation easing effect
-        imageW    : 208, // the images width
-        margin    : 12, // image margin right
-        border    : '', // image border
-        minItems  : 1, // the minimum number of items to show. 
-                  // when we resize the window, this will make sure minItems are always shown 
-                  // (unless of course minItems is higher than the total number of elements)
-        current   : 0,  // index of the current item
-                  // when we resize the window, the carousel will make sure this item is visible 
-        onClick   : function() { return false; } // click item callback
-  	});
-  });
-})(jQuery);     </script>            </div>
-                </div>
-                </div>
-            </div>
                        <div class="clear"></div>
                 </div>
                 </div>
@@ -698,16 +420,15 @@ var rokboxPath = 'http://livedemo00.template-help.com/joomla_43780/plugins/syste
 						<div class="rt-grid-6 rt-alpha">
 			<div class="clear"></div>
 			<div class="rt-block">
-				<p class="copyright"><span class="siteName">Fishing </span>&copy; 2013 &nbsp;|&nbsp; <a href="index.php/privacy-policy.html">Privacy Policy</a></p>
+				<p class="copyright"><span class="siteName">Fishing </span>&copy; 2013 &nbsp;|&nbsp; <a href="privacy-policy.html">Privacy Policy</a></p>
 			</div>
 </div>
 <div class="rt-grid-10 rt-omega">
                         <div class="rt-block">
 <ul class="menu-footer">
-<li id="item-101" class="current active"><a href="index.html" ><span>Home</span></a></li><li id="item-116" class="parent"><a href="index.php/about.html" ><span>About Us</span></a></li><li id="item-117"><a href="index.php/services.html" ><span>Services</span></a></li><li id="item-118" class="parent"><span class="separator"><span>Gallery</span></span>
-</li><li id="item-122"><a href="index.php/testimonials.html" ><span>Testimonials</span></a></li><li id="item-126"><a href="index.php/staff.html" ><span>Staff</span></a></li><li id="item-114"><a href="index.php/contacts.html" ><span>Contacts</span></a></li></ul>            </div>
+<li id="item-101"><a href="index.html" ><span>Home</span></a></li><li id="item-116" class="parent"><a href="about.html" ><span>About Us</span></a></li><li id="item-117"><a href="services.html" ><span>Services</span></a></li><li id="item-118" class="parent"><span class="separator"><span>Gallery</span></span>
+</li><li id="item-122"><a href="testimonials.html" ><span>Testimonials</span></a></li><li id="item-126"><a href="staff.html" ><span>Staff</span></a></li><li id="item-114"><a href="contacts.html" ><span>Contacts</span></a></li></ul>            </div>
 </div>
-						 							 <!-- {%FOOTER_LINK} -->
 						 						<div class="clear"></div>
 					</div>
 				</div>
@@ -725,10 +446,19 @@ var rokboxPath = 'http://livedemo00.template-help.com/joomla_43780/plugins/syste
 																			</div>
 		</div>
 		</div>
-	<script>
-	$('#datepicker').datepicker();
-	</script>
+	<!--LIVEDEMO_00 -->
+<script type="text/javascript">
+ var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-7078796-5']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();</script>
+	<script type="text/javascript">if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:")+"//"+"d1ros97qkrwjf5.cloudfront.net/42/eum/rum.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","beacon-1.newrelic.com","72d7dcce33","1388850","ZV1TZ0FTVkFVWkwKXlwXZEFaHRIdXVdcBkkcSFlD",0,1603,new Date().getTime(),"","","","",""]);</script>
 </body>
 
-
+<!-- Mirrored from livedemo00.template-help.com/joomla_43780/index.php/user-profile?view=registration by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 10 Apr 2013 19:57:02 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 </html>
