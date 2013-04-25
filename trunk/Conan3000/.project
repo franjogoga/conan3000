@@ -40,6 +40,31 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>WebContent/Club/servicio/evento/ajax.googleapis.com</name>
+			<type>2</type>
+			<locationURI>AJAX_GOOGLEAPIS</locationURI>
+		</link>
+		<link>
+			<name>WebContent/Club/servicio/evento/css</name>
+			<type>2</type>
+			<locationURI>CLUB_CSS</locationURI>
+		</link>
+		<link>
+			<name>WebContent/Club/servicio/evento/hts-cache</name>
+			<type>2</type>
+			<locationURI>HTS_CACHE</locationURI>
+		</link>
+		<link>
+			<name>WebContent/Club/servicio/evento/images</name>
+			<type>2</type>
+			<locationURI>CLUB_IMAGES</locationURI>
+		</link>
+		<link>
+			<name>WebContent/Club/servicio/evento/js</name>
+			<type>2</type>
+			<locationURI>CLUB_JS</locationURI>
+		</link>
+		<link>
 			<name>WebContent/IngSoft/administracion/Usuarios/css</name>
 			<type>2</type>
 			<locationURI>CSS</locationURI>
@@ -192,8 +217,28 @@
 	</linkedResources>
 	<variableList>
 		<variable>
+			<name>AJAX_GOOGLEAPIS</name>
+			<value>$%7BPROJECT_LOC%7D/webcontent/Club/general/ajax.googleapis.com</value>
+		</variable>
+		<variable>
+			<name>CLUB_CSS</name>
+			<value>$%7BPROJECT_LOC%7D/webcontent/Club/general/css</value>
+		</variable>
+		<variable>
+			<name>CLUB_IMAGES</name>
+			<value>$%7BPROJECT_LOC%7D/webcontent/Club/general/images</value>
+		</variable>
+		<variable>
+			<name>CLUB_JS</name>
+			<value>$%7BPROJECT_LOC%7D/webcontent/Club/general/js</value>
+		</variable>
+		<variable>
 			<name>CSS</name>
 			<value>$%7BPROJECT_LOC%7D/webcontent/ingsoft/general/css</value>
+		</variable>
+		<variable>
+			<name>HTS_CACHE</name>
+			<value>$%7BPROJECT_LOC%7D/webcontent/Club/general/hts-cache</value>
 		</variable>
 		<variable>
 			<name>IMG</name>
@@ -202,10 +247,6 @@
 		<variable>
 			<name>JS</name>
 			<value>$%7BPROJECT_LOC%7D/WebContent/IngSoft/general/js</value>
-		</variable>
-		<variable>
-			<name>copy_PROJECT_LOC</name>
-			<value>$%7BPARENT-3-PROJECT_LOC%7D/Nueva%20carpeta/ing_soft/IngSoft</value>
 		</variable>
 	</variableList>
 </projectDescription>
