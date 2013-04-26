@@ -220,10 +220,10 @@
 										<i class="icon-zoom-in icon-white"></i>  
 										Ver                                            
 									</a>
-									<a class="btn btn-info" href="modificarsocio.jsp">
+									<a class="btn btn-info" href="/Conan3000/IngSoft/ventas/socio/modificarsocio.jsp">
 										<i class="icon-edit icon-white"></i>  
 										Modificar</a>
-									<a class="btn btn-danger" href="/Conan3000/IngSoft/ventas/socio/buscarsocio.jsp">
+									<a class="btn btn-danger" href="/Conan3000/IngSoft/ventas/socio/eliminarsocio.jsp">
 										<i class="icon-trash icon-white"></i> 
 										Eliminar
 									</a>
@@ -260,11 +260,11 @@
 										<i class="icon-zoom-in icon-white"></i>  
 										Ver                                            
 									</a>
-									<a class="btn btn-info" href="#">
+									<a class="btn btn-info" href="/Conan3000/IngSoft/ventas/socio/modificarsocio.jsp">
 										<i class="icon-edit icon-white"></i>  
 										Modificar                                            
 									</a>
-									<a class="btn btn-danger" href="#">
+									<a class="btn btn-danger" href="/Conan3000/IngSoft/ventas/socio/eliminarsocio.jsp">
 										<i class="icon-trash icon-white"></i> 
 										Eliminar
 									</a>
