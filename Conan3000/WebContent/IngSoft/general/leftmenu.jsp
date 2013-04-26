@@ -5,7 +5,7 @@
    						<li class="nav-header hidden-tablet">Mantenimientos</li>
    						<li><a class="ajax-link" href="/Conan3000/IngSoft/administracion/sedes/sedebuscar.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Sedes</span></a></li>
 						<li><a class="ajax-link" href="/Conan3000/IngSoft/administracion/empleados/buscarempleado.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Empleados</span></a></li>
-						<li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Invitados</span></a></li>
+						<li><a class="ajax-link" href="/Conan3000/IngSoft/administracion/invitados/invitadobuscar.jsp""><i class="icon-wrench"></i><span class="hidden-tablet"> Invitados</span></a></li>
 						<li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Servicios</span></a></li>
 						<li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Membresias</span></a></li>						
                         <li><a class="ajax-link" href="/Conan3000/IngSoft/ventas/familia/buscarfamiliar.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Familiares</span></a></li>
