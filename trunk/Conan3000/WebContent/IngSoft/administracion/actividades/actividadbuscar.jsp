@@ -239,12 +239,25 @@
 			  
 					<div class="box-content">
                         <table class="table table-striped table-bordered bootstrap-datatable datatable">
+                        
+                            <!-- agregar nuevo boton -->
+                            
+                            
+                            <div align="right">
+                            
+                                <a class="btn btn-primary" href="agregarevento.jsp">
+                                    <i class="icon icon-add icon-white"></i>
+                                    Agregar
+                                </a>
+                              
+                             </div>  
+                        
                           <thead>
 							  <tr>
 								  <th>Nombre Actividad</th>
 								  <th>Fecha de inicio</th>
 								  <th>Fecha de Fin</th>
-								  <th>Encargado</th>
+								  
 								  <th>Acción</th>
 							  </tr>
 						  </thead>   
@@ -252,10 +265,8 @@
 							<tr>
 								<td>Worth Name</td>
 								<td class="center">2012/03/01</td>
-								<td class="center">Member</td>
-								<td class="center">
-									<span class="label label-warning">Pending</span>
-								</td>
+								<td class="center">2012/03/20</td>
+								
 								<td class="center">
 									<a class="btn btn-success" href="#">
 										<i class="icon-zoom-in icon-white"></i>
