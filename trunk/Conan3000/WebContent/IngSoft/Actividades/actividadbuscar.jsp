@@ -314,11 +314,11 @@
 										<i class="icon-zoom-in icon-white"></i>
 										Ver
 									</a>
-									<a class="btn btn-info" href="#">
+									<a class="btn btn-info" href="actividadmodificar">
 										<i class="icon-edit icon-white"></i>
 										Modificar
 									</a>
-									<a class="btn btn-danger" href="#">
+									<a class="btn btn-danger" href="actividadeliminar">
 										<i class="icon-trash icon-white"></i>
 										Eliminar
 									</a>
