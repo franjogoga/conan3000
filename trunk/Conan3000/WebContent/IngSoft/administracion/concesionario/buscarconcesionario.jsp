@@ -157,7 +157,7 @@
                       <div class="box-content">
                         <table class="table table-striped table-bordered bootstrap-datatable datatable">
                           <!-- agregar nuevo boton -->
-                          <div  align="right"> <a class="btn btn-primary" href="#"> <i class="icon icon-add icon-white"></i> Agregar </a> </div>
+                          <div  align="right"> <a class="btn btn-primary" href="agregarconcesionario.jsp"> <i class="icon icon-add icon-white"></i> Agregar </a> </div>
                           <thead>
                             <tr>
                               <th>RUC</th>
@@ -173,21 +173,21 @@
                               <td>Per&uacute Campe&oacuten</td>
                               <td class="center">Criolla</td>
                               <td class="center">Chosica</td>
-                              <td class="center"><a class="btn btn-success" href="#"> <i class="icon-zoom-in icon-white"></i> Ver </a> <a class="btn btn-info" href="#"> <i class="icon-edit icon-white"></i> Modificar </a> <a class="btn btn-danger" href="#"> <i class="icon-trash icon-white"></i> Eliminar </a></td>
+                              <td class="center"><a class="btn btn-success" href="#"> <i class="icon-zoom-in icon-white"></i> Ver </a> <a class="btn btn-info" href="modificarconcesionario.jsp"> <i class="icon-edit icon-white"></i> Modificar </a> <a class="btn btn-danger" href="eliminarconcesionario.jsp"> <i class="icon-trash icon-white"></i> Eliminar </a></td>
                             </tr>
                             <tr>
                               <td>98347823912</td>
                               <td>Pastelicia</td>
                               <td class="center">Pasteler&iacutea</td>
                               <td class="center">Chosica</td>
-                              <td class="center"><a class="btn btn-success" href="#"> <i class="icon-zoom-in icon-white"></i> Ver </a> <a class="btn btn-info" href="#"> <i class="icon-edit icon-white"></i> Modificar </a> <a class="btn btn-danger" href="#"> <i class="icon-trash icon-white"></i> Eliminar </a></td>
+                              <td class="center"><a class="btn btn-success" href="#"> <i class="icon-zoom-in icon-white"></i> Ver </a> <a class="btn btn-info" href="modificarconcesionario.jsp"> <i class="icon-edit icon-white"></i> Modificar </a> <a class="btn btn-danger" href="eliminarconcesionario.jsp"> <i class="icon-trash icon-white"></i> Eliminar </a></td>
                             </tr>
                             <tr>
                               <td>00912947361</td>
                               <td>Pizzas Saul</td>
                               <td class="center">Pastas</td>
                               <td class="center">Chosica</td>
-                              <td class="center"><a class="btn btn-success" href="#"> <i class="icon-zoom-in icon-white"></i> Ver </a> <a class="btn btn-info" href="#"> <i class="icon-edit icon-white"></i> Modificar </a> <a class="btn btn-danger" href="#"> <i class="icon-trash icon-white"></i> Eliminar </a></td>
+                              <td class="center"><a class="btn btn-success" href="#"> <i class="icon-zoom-in icon-white"></i> Ver </a> <a class="btn btn-info" href="modificarconcesionario.jsp"> <i class="icon-edit icon-white"></i> Modificar </a> <a class="btn btn-danger" href="eliminarconcesionario.jsp"> <i class="icon-trash icon-white"></i> Eliminar </a></td>
                             </tr>
                           </tbody>
                         </table>
