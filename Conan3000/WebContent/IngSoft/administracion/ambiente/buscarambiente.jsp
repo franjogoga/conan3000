@@ -137,7 +137,7 @@
                       <div class="box-content">
                         <table class="table table-striped table-bordered bootstrap-datatable datatable">
                           <!-- agregar nuevo boton -->
-                          <div  align="right"> <a class="btn btn-primary" href="#"> <i class="icon icon-add icon-white"></i> Agregar </a> </div>
+                          <div  align="right"> <a class="btn btn-primary" href="agregarambiente.jsp"> <i class="icon icon-add icon-white"></i> Agregar </a> </div>
                           <thead>
                             <tr>
                               <th>Nombre</th>
@@ -151,19 +151,19 @@
                               <td>Gimnasio</td>
                               <td class="center">Deportivo</td>
                               <td class="center">Chosica</td>
-                              <td class="center"><a class="btn btn-success" href="#"> <i class="icon-zoom-in icon-white"></i> Ver </a> <a class="btn btn-info" href="#"> <i class="icon-edit icon-white"></i> Modificar </a> <a class="btn btn-danger" href="#"> <i class="icon-trash icon-white"></i> Eliminar </a></td>
+                              <td class="center"><a class="btn btn-success" href="#"> <i class="icon-zoom-in icon-white"></i> Ver </a> <a class="btn btn-info" href="modificarambiente.jsp"> <i class="icon-edit icon-white"></i> Modificar </a> <a class="btn btn-danger" href="eliminarambiente.jsp"> <i class="icon-trash icon-white"></i> Eliminar </a></td>
                             </tr>
                             <tr>
                               <td>Piscina</td>
                               <td class="center">Deportivo</td>
                               <td class="center">Chosica</td>
-                              <td class="center"><a class="btn btn-success" href="#"> <i class="icon-zoom-in icon-white"></i> Ver </a> <a class="btn btn-info" href="#"> <i class="icon-edit icon-white"></i> Modificar </a> <a class="btn btn-danger" href="#"> <i class="icon-trash icon-white"></i> Eliminar </a></td>
+                              <td class="center"><a class="btn btn-success" href="#"> <i class="icon-zoom-in icon-white"></i> Ver </a> <a class="btn btn-info" href="modificarambiente.jsp"> <i class="icon-edit icon-white"></i> Modificar </a> <a class="btn btn-danger" href="eliminarambiente.jsp"> <i class="icon-trash icon-white"></i> Eliminar </a></td>
                             </tr>
                             <tr>
                               <td>Sala de juegos</td>
                               <td class="center">Recreativo</td>
                               <td class="center">Chosica</td>
-                              <td class="center"><a class="btn btn-success" href="#"> <i class="icon-zoom-in icon-white"></i> Ver </a> <a class="btn btn-info" href="#"> <i class="icon-edit icon-white"></i> Modificar </a> <a class="btn btn-danger" href="#"> <i class="icon-trash icon-white"></i> Eliminar </a></td>
+                              <td class="center"><a class="btn btn-success" href="#"> <i class="icon-zoom-in icon-white"></i> Ver </a> <a class="btn btn-info" href="modificarambiente.jsp"> <i class="icon-edit icon-white"></i> Modificar </a> <a class="btn btn-danger" href="eliminarambiente.jsp"> <i class="icon-trash icon-white"></i> Eliminar </a></td>
                             </tr>
                           </tbody>
                         </table>
