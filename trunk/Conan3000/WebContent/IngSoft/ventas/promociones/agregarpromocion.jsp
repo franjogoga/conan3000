@@ -12,7 +12,7 @@
 		http://twitter.com/halalit_usman
 	-->
 	<meta charset="utf-8">
-	<title>Free HTML5 Bootstrap Admin Template</title>
+	<title>Agregar Promocion</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Charisma, a fully featured, responsive, HTML5, Bootstrap admin template.">
 	<meta name="author" content="Muhammad Usman">
@@ -78,56 +78,58 @@
 			  <!-- content starts -->
 			  <div>
 			    <ul class="breadcrumb">
-			      <li> <a href="#">Home</a> / <a href="#">Mantenimiento de Promociones</a> / Agregar Promoci&oacuten</li>
+			      <li> <a href="#">Home</a> / <a href="#">Mantenimiento de Promociones</a> / Agregar Promoci&oacute;n</li>
 		        </ul>
 		      </div>
 			  <div class="row-fluid sortable">
 			    <div class="box span12">
 			      <div class="box-header well" data-original-title>
-			        <h2><i class="icon-plus-sign"></i>AGREGAR PROMOCI&Oacute“N</h2>
+			        <h2><i class="icon-plus-sign"></i>AGREGAR PROMOCI&Oacute;N</h2>
 		          </div>
 			      <div class="box-content">
 			        <form class="form-horizontal">
 			          <fieldset>
 			            <div class="control-group">
-			              <label class="control-label" for="typeahead7">Nombre:</label>
+			              <label class="control-label" for="typeahead7">Nombre(*):</label>
 			              <div class="controls">
 			                <input type="text" class="span6 typeahead" id="typeahead7"  data-provide="typeahead" >
 		                  </div>
 		                </div>
 			            <div class="control-group">
 			              <div class="control-group">
-			                <label class="control-label" for="date01">Fecha de inicio:</label>
+			                <label class="control-label" for="date01">Fecha de inicio(*):</label>
 			                <div class="controls">
 			                  <input type="text" class="input-xlarge datepicker" id="date01" value="02/16/12">
 		                    </div>
 		                  </div>
 			              <div class="control-group">
-			                <label class="control-label" for="date01">Fecha de fin:</label>
+			                <label class="control-label" for="date01">Fecha de fin(*):</label>
 			                <div class="controls">
 			                  <input type="text" class="input-xlarge datepicker" id="date01" value="02/16/13">
 		                    </div>
 		                  </div>
 			              <div class="control-group">
-			                <label class="control-label" for="typeahead8">Descuento:</label>
+			                <label class="control-label" for="typeahead8">Descuento(*):</label>
 			                <div class="controls">
 			                  <input type="text" class="span6 typeahead" id="typeahead8"  data-provide="typeahead" data-items="4" >
 		                    </div>
 		                  </div>
 			              <div class="control-group">
-			                <label class="control-label" for="selectError">Estado</label>
-			                <div class="controls">
-			                  <select name="selectError" id="selectError" data-rel="chosen">
-			                    <option selected>Activo</option>
-			                    <option>Option 2</option>
-			                    <option>Option 3</option>
-			                    <option>Option 4</option>
-			                    <option>Option 5</option>
-		                      </select>
-		                    </div>
-		                  </div>
+								<label class="control-label">Estado(*):</label>
+								<div class="controls">
+								  <label class="radio">
+									<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+									Activo
+								  </label>
+								  <div style="clear:both"></div>
+								  <label class="radio">
+									<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+									Inactivo
+								  </label>
+								</div>
+							  </div>
 			              <div class="control-group">
-			                <label class="control-label" for="textarea2">Descripci&oacuten:</label>
+			                <label class="control-label" for="textarea2">Descripci&oacute;n:</label>
 			                <div class="controls">
 			                  <textarea name="textarea" rows="3" class="" id="textarea2"></textarea>
 		                    </div>

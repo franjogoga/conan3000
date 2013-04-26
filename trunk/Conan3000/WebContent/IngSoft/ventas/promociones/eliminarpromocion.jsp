@@ -12,7 +12,7 @@
 		http://twitter.com/halalit_usman
 	-->
 	<meta charset="utf-8">
-	<title>Free HTML5 Bootstrap Admin Template</title>
+	<title>Eliminar Promocion</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Charisma, a fully featured, responsive, HTML5, Bootstrap admin template.">
 	<meta name="author" content="Muhammad Usman">
@@ -89,6 +89,13 @@
 			      <div class="box-content">
 			        <form class="form-horizontal">
 			          <fieldset>
+			          <div class="control-group">
+			                <label class="control-label" for="typeahead9">Promoci&ocuote;n(*): </label>
+			                <div class="controls">
+			                  <input type="text" class="span6 typeahead" id="typeahead9"  data-provide="typeahead" data-items="4" >
+			                  <p class="help-block">Escriba sobre la casilla un nombre de la promoci&ocuote;n para ser autocompletado</p>
+		                    </div>
+		                  </div>
 			            <div class="control-group">
 			              <label class="control-label" for="typeahead7">Nombre:</label>
 			              <div class="controls">
