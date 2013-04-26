@@ -78,13 +78,13 @@
 			  <!-- content starts -->
 			  <div>
 			    <ul class="breadcrumb">
-			      <li> <a href="#">Home</a> / <a href="#">Mantenimiento de Promociones</a> / Eliminar Promoci&oacuten</li>
+			      <li> <a href="#">Home</a> / <a href="#">Mantenimiento de Promociones</a> / Eliminar Promoci&oacute;n</li>
 		        </ul>
 		      </div>
 			  <div class="row-fluid sortable">
 			    <div class="box span12">
 			      <div class="box-header well" data-original-title>
-			        <h2>ELIMINAR PROMOCI&OacuteN</h2>
+			        <h2>ELIMINAR PROMOCI&Oacute;N</h2>
 		          </div>
 			      <div class="box-content">
 			        <form class="form-horizontal">
@@ -114,20 +114,22 @@
 			                  <input type="text" disabled class="span6 typeahead" id="typeahead8" value="100"  data-provide="typeahead" data-items="4" >
 		                    </div>
 		                  </div>
+			           				<div class="control-group">
+								<label class="control-label" for="typeahead3">Estado</label>
+								<div class="controls">
+								  <label class="radio">
+									<input type="radio" disabled="disabled" "optionsRadios" id="optionsRadios1" value="option1" checked="">
+									Activo
+								  </label>
+								  <div style="clear:both"></div>
+								  <label class="radio">
+									<input type="radio" disabled="disabled" name="optionsRadios" id="optionsRadios2" value="option2">
+									Inactivo
+								  </label>
+								</div>
+							  </div>
 			              <div class="control-group">
-			                <label class="control-label" for="selectError">Estado</label>
-			                <div class="controls">
-			                  <select name="selectError" id="selectError" data-rel="chosen" disabled="">
-			                    <option selected>Activo</option>
-			                    <option>Option 2</option>
-			                    <option>Option 3</option>
-			                    <option>Option 4</option>
-			                    <option>Option 5</option>
-		                      </select>
-		                    </div>
-		                  </div>
-			              <div class="control-group">
-			                <label class="control-label" for="textarea2">Descripci&oacuten:</label>
+			                <label class="control-label" for="textarea2">Descripci&oacute;n:</label>
 			                <div class="controls">
 			                  <textarea name="textarea" rows="3" disabled class="" id="textarea2">Descuento si reservas 2 bungalow.</textarea>
 		                    </div>
