@@ -95,26 +95,26 @@
 		                </div>
 			         
 			              <div class="control-group">
-			                <label class="control-label" for="typeahead6">Nombres:</label>
+			                <label class="control-label" for="typeahead6">Nombres(*):</label>
 			                <div class="controls">
 			                  <input type="text" class="span6 typeahead" id="typeahead6"  data-provide="typeahead" data-items="4" >
 		                    </div>
 		                  </div>
 			              <div class="control-group">
-			                <label class="control-label" for="typeahead4">Apellido Paterno:</label>
+			                <label class="control-label" for="typeahead4">Apellido Paterno(*):</label>
 			                <div class="controls">
 			                  <input type="text" class="span6 typeahead" id="typeahead4"  data-provide="typeahead" data-items="4" >
 		                    </div>
 		                  </div>
 			              <div class="control-group">
-			                <label class="control-label" for="typeahead8">Apellido Materno:</label>
+			                <label class="control-label" for="typeahead8">Apellido Materno(*):</label>
 			                <div class="controls">
 			                  <input type="text" class="span6 typeahead" id="typeahead8"  data-provide="typeahead" data-items="4" >
 		                    </div>
 		                  </div>
 			              <div class="control-group">
 			                <div class="control-group">
-			                  <label class="control-label" for="typeahead3">DNI:</label>
+			                  <label class="control-label" for="typeahead3">DNI(*):</label>
 			                  <div class="controls">
 			                    <input type="text" class="span6 typeahead" id="typeahead3"  data-provide="typeahead" data-items="4">
 		                      </div>
