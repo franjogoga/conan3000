@@ -207,7 +207,7 @@
 		                  </div>
 						  
 			              <div class="control-group">
-			                <label class="control-label" for="typeahead4">Tipo Encargado: </label>
+			                <label class="control-label" for="typeahead4">Profesion: </label>
 			                <div class="controls">
 			                  <input disabled=""  type="text" class="span6 typeahead" id="typeahead4"  data-provide="typeahead" data-items="4" >
 		                    </div>
@@ -271,18 +271,37 @@
                           </div>
 
 								
+							  
+							  
 							  <div class="control-group">
-								<label class="control-label" for="selectError1">Días de la Semana:</label>
+								<label class="control-label">Días de la Semana:</label>
 								<div class="controls">
-								  <select disabled="" id="selectError1" multiple data-rel="chosen">
-									<option selected>Lunes</option>
-									<option >Martes</option>
-									<option>Miercoles</option>
-									<option>Jueves</option>
-									<option>Viernes</option>
-								  </select>
+								
+								  <label class="checkbox inline">
+									<input disabled="" type="checkbox" id="inlineCheckbox1" value="option1">Lunes
+								  </label>
+								  
+								  
+								  <label class="checkbox inline">
+									<input disabled="" type="checkbox" id="inlineCheckbox2" value="option2">Martes
+								  </label>
+								  
+								  
+								  <label class="checkbox inline">
+									<input disabled=""  type="checkbox" id="inlineCheckbox3" value="option3">Miercoles
+								  </label>
+								  
+								  <label class="checkbox inline">
+									<input disabled="" type="checkbox" id="inlineCheckbox2" value="option2">Jueves
+								  </label>
+								  
+								  
+								  <label class="checkbox inline">
+									<input  disabled="" type="checkbox" id="inlineCheckbox3" value="option3">Viernes
+								  </label>
+								  
 								</div>
-							  </div>     
+							  </div>   
 
                                 <div class="control-group">
                                     <label class="control-label" for="textarea2">Descripción:</label>
