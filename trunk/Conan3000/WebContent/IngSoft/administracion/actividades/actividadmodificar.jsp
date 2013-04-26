@@ -198,7 +198,7 @@
 							  
 							  
 							  <div class="control-group">
-								<label class="control-label">Días de la Semana:</label>
+								<label class="control-label">Dias de la Semana:</label>
 								<div class="controls">
 								
 								  <label class="checkbox inline">
