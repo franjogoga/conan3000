@@ -2,11 +2,17 @@
 <html lang="en">
 <head>
 	<!--
-		Autor: Carlos Bustamante
-		Edición: 20_04_2013
+		Charisma v1.0.0
+
+		Copyright 2012 Muhammad Usman
+		Licensed under the Apache License v2.0
+		http://www.apache.org/licenses/LICENSE-2.0
+
+		http://usman.it
+		http://twitter.com/halalit_usman
 	-->
 	<meta charset="utf-8">
-	<title>Generar Reportes</title>
+	<title>Template</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Charisma, a fully featured, responsive, HTML5, Bootstrap admin template.">
 	<meta name="author" content="Muhammad Usman">
@@ -45,26 +51,18 @@
 
 	<!-- The fav icon -->
 	<link rel="shortcut icon" href="img/conan_logo.png">
-	
-	<script>
-		function abrirDiv(){
-			var sel= document.getElementById("selectError");
-			var num=sel.options[sel.selectedIndex].value;
-			var nombre="div"+num;
-			document.getElementById(nombre).style.display="inline";
-		 }
-	</script>
+		
 </head>
 
 <body>
 		<jsp:include page="/IngSoft/general/superior.jsp" />
-		
 		<div class="container-fluid">
 		<div class="row-fluid">
 				
 			<!-- left menu starts -->
 			<jsp:include page="/IngSoft/general/leftmenu.jsp" />
 						<!-- left menu ends -->
+			
 			
 			<noscript>
 				<div class="alert alert-block span10">
@@ -75,7 +73,8 @@
 			
 			<div id="content" class="span10">
 			<!-- content starts -->
-			
+			<div id="content" class="span10">
+			<!-- content starts -->
 
 			<div>
 				<ul class="breadcrumb">
@@ -85,15 +84,15 @@
                     <li>
 						Generar Reportes
 					</li>
-					
+
 				</ul>
 			</div>
 			
-<div class="row-fluid sortable">
+			<div class="row-fluid sortable">
 				<div class="box span12">
 					<div class="box-header well" data-original-title>
 						<h2><i class="icon-edit"></i> GENERAR REPORTES</h2>
-
+						
 					</div>
 					<div class="box-content">
 						<form class="form-horizontal">
@@ -104,9 +103,6 @@
 								  <select id="selectError" data-rel="chosen" ONCHANGE="location = this.options[this.selectedIndex].value;">
 									<option value="/Conan3000/IngSoft/servicio/reporte/reporteeventointerno.jsp"><a HREF="/Conan3000/IngSoft/servicio/reporte/reporteeventointerno.jsp">Eventos Internos</a></option>
 									<option value="/Conan3000/IngSoft/servicio/reporte/reporteeventoexterno.jsp"><a HREF="/Conan3000/IngSoft/servicio/reporte/reporteeventoexterno.jsp">Eventos Externos</a></option>
-                                    <option>Reporte3</option>
-                                    <option>Reporte4</option>
-                                    <option>Reporte5</option>
 								  </select>
 								</div>
 							  </div>
@@ -123,9 +119,28 @@
 							  </div>
 							</div>
                             <div class="control-group">
+								<label class="control-label" for="selectError3">Ingrese Ambiente</label>
+								<div class="controls">
+								  <select id="selectError3" data-rel="chosen">
+									<option>Canchas</option>
+									<option>Piscina</option>
+								  </select>
+								</div>
+							  </div>
+                            <div class="control-group">
+								<label class="control-label" for="selectError2">Seleccione Cliente</label>
+								<div class="controls">
+								  <select id="selectError2" data-rel="chosen" >
+									<option>Miyasato</option>
+									<option>Sodimac</option>
+                                    <option>Sodimac</option>
+								  </select>
+								</div>
+							</div>  
+							<div class="control-group">
 							  <div class="controls">
 								<button type="submit" class="btn btn-primary">Generar</button>
-                                <button class="btn">Cancelar</button>
+								<button class="btn">Cancelar</button>
 							  </div>
 							</div>
 						  </fieldset>
@@ -143,8 +158,7 @@
 			
 			<div class="row-fluid sortable"><!--/span-->
 
-			</div><!--/row-->
-    
+			</div><!--/row-->				 
 					<!-- content ends -->
 			</div><!--/#content.span10-->
 				</div><!--/fluid-row-->
@@ -165,7 +179,7 @@
 			</div>
 		</div>
 
-	<jsp:include page="/IngSoft/general/inferior.jsp" />		
+		<jsp:include page="/IngSoft/general/inferior.jsp" />
 		
 	</div><!--/.fluid-container-->
 
