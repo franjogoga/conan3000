@@ -9,14 +9,14 @@
 						<li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Servicios</span></a></li>
 						<li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Membresias</span></a></li>						
                         <li><a class="ajax-link" href="/Conan3000/IngSoft/ventas/familia/buscarfamiliar.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Familiares</span></a></li>
-                        <li><a class="ajax-link" href="/Conan3000/IngSoft/administracion/socio/registrarsociovitalicio.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Socios</span></a></li>
+                        <li><a class="ajax-link" href="/Conan3000/IngSoft/ventas/socio/buscarsocio.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Socios</span></a></li>
                         <li><a class="ajax-link" href="/Conan3000/IngSoft/ventas/proveedor/buscarproveedor.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Proveedores</span></a></li>
                         <li><a class="ajax-link" href="/Conan3000/IngSoft/ventas/producto/buscarproducto.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Productos</span></a></li>
                         <li><a class="ajax-link" href="/Conan3000/IngSoft/administracion/usuarios/usuariobuscar.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Usuarios</span></a></li>
                         <li><a class="ajax-link" href="/Conan3000/IngSoft/administracion/actividades/actividadbuscar.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Actividades</span></a></li>
                         <li><a class="ajax-link" href="/Conan3000/IngSoft/administracion/buscarperfil.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Perfiles</span></a></li>
                         <li><a class="ajax-link" href="/Conan3000/IngSoft/administracion/concesionario/buscarconcesionario.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Concesionarios</span></a></li>
-                        <li><a class="ajax-link" href="/Conan3000/IngSoft/general/generarreportes.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Reportes</span></a></li>
+                        <li><a class="ajax-link" href="/Conan3000/IngSoft/servicio/reporte/generarreportes.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Reportes</span></a></li>
                         <li><a class="ajax-link" href="/Conan3000/IngSoft/administracion/ambiente/buscarambiente.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Ambientes</span></a></li>
                         <li><a class="ajax-link" href="/Conan3000/IngSoft/servicio/reservas/buscarreserva.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Reservas</span></a></li>
                         <li><a class="ajax-link" href="/Conan3000/IngSoft/servicio/evento/buscarevento.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Eventos</span></a></li>
