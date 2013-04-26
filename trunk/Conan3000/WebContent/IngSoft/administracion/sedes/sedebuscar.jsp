@@ -131,7 +131,7 @@
 						      </div>
 						  
 						    <div class="control-group">
-						      <label class="control-label" for="typeahead7">Dirección: </label>
+						      <label class="control-label" for="typeahead7">Direccion: </label>
 						      <div class="controls">
 						        <input    type="text" class="span6 typeahead" id="typeahead7"  data-provide="typeahead" >
 					          </div>
@@ -202,18 +202,16 @@
 								  <th>Nombre</th>
 								  <th>Provincia</th>
 								  <th>Distrito</th>
-								  <th>Actividad</th>
-								  <th>Acción</th>
+								 
+								  <th>Accion</th>
 							  </tr>
 						  </thead>   
 						  <tbody>
 							<tr>
-								<td>Worth Name</td>
-								<td class="center">2012/03/01</td>
-								<td class="center">Member</td>
-								<td class="center">
-									<span class="label label-warning">Pending</span>
-								</td>
+								<td>Sede1</td>
+								<td class="center">Lima</td>
+								<td class="center">Molina</td>
+							
 								<td class="center">
 									<a class="btn btn-success" href="">
 										<i class="icon-zoom-in icon-white"></i>
