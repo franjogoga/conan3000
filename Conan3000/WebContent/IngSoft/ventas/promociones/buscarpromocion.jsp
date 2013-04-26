@@ -12,7 +12,7 @@
 		http://twitter.com/halalit_usman
 	-->
 	<meta charset="utf-8">
-	<title>Free HTML5 Bootstrap Admin Template</title>
+	<title>Buscar Promocion</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Charisma, a fully featured, responsive, HTML5, Bootstrap admin template.">
 	<meta name="author" content="Muhammad Usman">
@@ -78,7 +78,7 @@
 			  <!-- content starts -->
 			  <div>
 			    <ul class="breadcrumb">
-			      <li> <a href="#">Home</a> / <a href="#">Mantenimiento de Promociones</a> / Buscar Promoci&oacuten</li>
+			      <li> <a href="#">Home</a> / <a href="#">Mantenimiento de Promociones</a> / Buscar Promoci&oacute;n</li>
 		        </ul>
 		      </div>
 			  <div class="row-fluid sortable">
@@ -90,7 +90,7 @@
 			        <form class="form-horizontal">
 			          <fieldset>
 			            <div class="control-group">
-			              <label class="control-label" for="typeahead7">C&oacutedigo:</label>
+			              <label class="control-label" for="typeahead7">C&oacute;digo:</label>
 			              <div class="controls">
 			                <input type="text" class="span6 typeahead" id="typeahead7"  data-provide="typeahead" >
 		                  </div>
@@ -120,18 +120,21 @@
 			                  <input type="text" class="span6 typeahead" id="typeahead8"  data-provide="typeahead" data-items="4" >
 		                    </div>
 		                  </div>
-			              <div class="control-group">
-			                <label class="control-label" for="selectError">Estado</label>
-			                <div class="controls">
-			                  <select name="selectError" id="selectError" data-rel="chosen">
-			                    <option selected>Activo</option>
-			                    <option>Option 2</option>
-			                    <option>Option 3</option>
-			                    <option>Option 4</option>
-			                    <option>Option 5</option>
-		                      </select>
-		                    </div>
-		                  </div>
+			              
+								<div class="control-group">
+								<label class="control-label" for="typeahead3">Estado</label>
+								<div class="controls">
+								  <label class="radio">
+									<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+									Activo
+								  </label>
+								  <div style="clear:both"></div>
+								  <label class="radio">
+									<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+									Inactivo
+								  </label>
+								</div>
+							  </div>
 			            </div>
 			            <div class="form-actions">
 			              <button type="submit" class="btn btn-primary">Buscar</button>

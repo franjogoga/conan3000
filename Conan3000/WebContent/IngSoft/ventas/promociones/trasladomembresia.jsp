@@ -12,7 +12,7 @@
 		http://twitter.com/halalit_usman
 	-->
 	<meta charset="utf-8">
-	<title>Free HTML5 Bootstrap Admin Template</title>
+	<title>Traslado Membresia</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Charisma, a fully featured, responsive, HTML5, Bootstrap admin template.">
 	<meta name="author" content="Muhammad Usman">
@@ -89,6 +89,13 @@
 			      <div class="box-content">
 			        <form class="form-horizontal">
 			          <fieldset>
+			           <div class="control-group">
+			                <label class="control-label" for="typeahead9">Socio(*): </label>
+			                <div class="controls">
+			                  <input type="text" class="span6 typeahead" id="typeahead9"  data-provide="typeahead" data-items="4" >
+			                  <p class="help-block">Escriba sobre la casilla un nombre de socio para ser autocompletado</p>
+		                    </div>
+		                  </div>
 			            <div class="control-group">
 			              <label class="control-label" for="typeahead7">Socio asociado:</label>
 			              <div class="controls">
@@ -98,53 +105,33 @@
                           <div class="control-group">
 			              <label class="control-label" for="typeahead7">Nuevo socio:</label>
 			              <div class="controls">
-			                <input type="text" class="span6 typeahead" id="typeahead7"  data-provide="typeahead" >
-		                  </div>
+			                <input type="text" disabled class="span6 typeahead" id="typeahead7"  data-provide="typeahead"  align="right"> <a class="btn btn-primary" href="#" > <i class="icon icon-add icon-white" > </i> Agregar </a>  
+			                		                  
+			                		                  </div>  <!-- agregar nuevo boton -->
+					   
 		                </div>
 			            <div class="control-group">
                         <div class="control-group">
 			                <label class="control-label" for="selectError">Parentesco:</label>
 			                <div class="controls">
 			                  <select name="selectError" id="selectError" data-rel="chosen">
-			                    <option selected>Hija</option>
-			                    <option>Option 2</option>
-			                    <option>Option 3</option>
-			                    <option>Option 4</option>
-			                    <option>Option 5</option>
+			                    <option selected>Hija(o)</option>
+			                    <option>Madre</option>
+			                    <option>Padre</option>
+			                    <option>Hermana(o)</option>
+			                    <option>Nieto(a)</option>
 		                      </select>
 		                    </div>
 		                  </div>
-                        
-			              <div class="control-group">
-			                <label class="control-label" for="date01">Fecha de inicio:</label>
-			                <div class="controls">
-			                  <input type="text" class="input-xlarge datepicker" id="date01" value="02/16/12">
-		                    </div>
-		                  </div>
-			              <div class="control-group">
-			                <label class="control-label" for="date01">Fecha de fin:</label>
-			                <div class="controls">
-			                  <input type="text" class="input-xlarge datepicker" id="date01" value="02/16/13">
-		                    </div>
-		                  </div>
+                      
+			              
 			              <div class="control-group">
 			                <label class="control-label" for="typeahead8">Costo:</label>
 			                <div class="controls">
 			                  <input type="text" class="span6 typeahead" id="typeahead8"  data-provide="typeahead" data-items="4" >
 		                    </div>
 		                  </div>
-			              <div class="control-group">
-			                <label class="control-label" for="selectError7">Estado</label>
-			                <div class="controls">
-			                  <select name="selectError7" id="selectError7" data-rel="chosen">
-			                    <option selected>Activo</option>
-			                    <option>Option 2</option>
-			                    <option>Option 3</option>
-			                    <option>Option 4</option>
-			                    <option>Option 5</option>
-		                      </select>
-		                    </div>
-		                  </div>
+			              
 			            </div>
 			            <div class="form-actions">
 			              <button type="submit" class="btn btn-primary">Aceptar</button>
