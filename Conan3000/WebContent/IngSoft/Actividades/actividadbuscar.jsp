@@ -296,7 +296,7 @@
                             
                             <div align="right">
                             
-                                <a class="btn btn-primary" href="agregarevento.jsp">
+                                <a class="btn btn-primary" href="actividadagregar.jsp">
                                     <i class="icon icon-add icon-white"></i>
                                     Agregar
                                 </a>
@@ -322,11 +322,11 @@
 										<i class="icon-zoom-in icon-white"></i>
 										Ver
 									</a>
-									<a class="btn btn-info" href="actividadmodificar">
+									<a class="btn btn-info" href="actividadmodificar.jsp">
 										<i class="icon-edit icon-white"></i>
 										Modificar
 									</a>
-									<a class="btn btn-danger" href="actividadeliminar">
+									<a class="btn btn-danger" href="actividadeliminar.jsp">
 										<i class="icon-trash icon-white"></i>
 										Eliminar
 									</a>
