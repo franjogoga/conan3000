@@ -168,7 +168,7 @@
 		        <div class="box-content">
 		          <table class="table table-striped table-bordered bootstrap-datatable datatable">
 		            <!-- agregar nuevo boton -->
-		            <div  align="right"> <a class="btn btn-primary" href="AgregarEvento.jsp"> <i class="icon icon-add icon-white"></i> Agregar </a> </div>
+		            <div  align="right"> <a class="btn btn-primary" href="usuarioagregar.jsp"> <i class="icon icon-add icon-white"></i> Agregar </a> </div>
 		            <thead>
 		              <tr>
 		                <th width="13%">Nombre</th>
