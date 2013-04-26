@@ -56,13 +56,97 @@
 </head>
 
 <body>
-		<jsp:include page="/IngSoft/general/superior.jsp" />
+		<!-- topbar starts -->
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="container-fluid">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".top-nav.nav-collapse,.sidebar-nav.nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+				<a class="brand" href="index.html"> <img alt="Conan Logo" src="img/conan_logo.png" /> <span>Conan<br> <span style="font-size:10px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3000</span></span></a>
+				
+				<!-- theme selector starts -->
+				<div class="btn-group pull-right theme-container" >
+					<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+						<i class="icon-tint"></i><span class="hidden-phone"> Change Theme / Skin</span>
+						<span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu" id="themes">
+						<li><a data-value="classic" href="#"><i class="icon-blank"></i> Classic</a></li>
+						<li><a data-value="cerulean" href="#"><i class="icon-blank"></i> Cerulean</a></li>
+						<li><a data-value="cyborg" href="#"><i class="icon-blank"></i> Cyborg</a></li>
+						<li><a data-value="redy" href="#"><i class="icon-blank"></i> Redy</a></li>
+						<li><a data-value="journal" href="#"><i class="icon-blank"></i> Journal</a></li>
+						<li><a data-value="simplex" href="#"><i class="icon-blank"></i> Simplex</a></li>
+						<li><a data-value="slate" href="#"><i class="icon-blank"></i> Slate</a></li>
+						<li><a data-value="spacelab" href="#"><i class="icon-blank"></i> Spacelab</a></li>
+						<li><a data-value="united" href="#"><i class="icon-blank"></i> United</a></li>
+					</ul>
+				</div>
+				<!-- theme selector ends -->
+				
+				<!-- user dropdown starts -->
+				<div class="btn-group pull-right" >
+					<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+						<i class="icon-user"></i><span class="hidden-phone"> admin</span>
+						<span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Profile</a></li>
+						<li class="divider"></li>
+						<li><a href="login.html">Logout</a></li>
+					</ul>
+				</div>
+				<!-- user dropdown ends -->
+				
+				<div class="top-nav nav-collapse">
+					<ul class="nav">
+						<li><a href="#">Visitar Sitio</a></li>
+						<li>
+							<form class="navbar-search pull-left">
+								<input placeholder="Buscar" class="search-query span2" name="query" type="text">
+							</form>
+						</li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</div>
+	</div>
+	<!-- topbar ends -->
 		<div class="container-fluid">
 		<div class="row-fluid">
 				
 			<!-- left menu starts -->
-			<jsp:include page="/IngSoft/general/leftmenu.jsp" />
-						<!-- left menu ends -->
+			<div class="span2 main-menu-span">
+				<div class="well nav-collapse sidebar-nav">
+					<ul class="nav nav-tabs nav-stacked main-menu">
+						 <li><a class="ajax-link" href="/Conan300/IngSoft/general/index.jsp"><i class="icon-home"></i><span class="hidden-tablet"> Home</span></a></li>
+   						<li class="nav-header hidden-tablet">Mantenimientos</li>
+   						<li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Sedes</span></a></li>
+						<li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Empleados</span></a></li>
+						<li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Invitados</span></a></li>
+						<li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Servicios</span></a></li>
+						<li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Membresias</span></a></li>						
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Familiares</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Socios</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Proveedores</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Productos</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Usuarios</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Actividades</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Perfiles</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Consecionarios</span></a></li>
+                        <li><a class="ajax-link" href="/Conan3000/IngSoft/general/GenerarReportes.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Reportes</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Ambientes</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Reservas</span></a></li>
+                        <li><a class="ajax-link" href="/Conan3000/IngSoft/servicios/evento/BuscarEvento.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Eventos</span></a></li>
+                        <li><a class="ajax-link" href="#"><i class="icon-wrench"></i><span class="hidden-tablet"> Promociones</span></a></li>
+					</ul>
+					<label id="for-is-ajax" class="hidden-tablet" for="is-ajax"><input id="is-ajax" type="checkbox"> Ajax on menu</label>
+				</div><!--/.well -->
+			</div><!--/span-->
+			<!-- left menu ends -->
             
             
            
@@ -92,7 +176,7 @@
 					  
 					  <!--    ----------------------------------------------------------------------------------------------    -->
 							<div class="control-group">
-							  <label class="control-label" for="typeahead7">Nombre: </label>
+							  <label class="control-label" for="typeahead7">Nombre(*): </label>
 							  <div class="controls">
 								<input type="text" class="span6 typeahead" id="typeahead7"  data-provide="typeahead" >
 							  </div>
@@ -100,7 +184,7 @@
 						
 						
 							  <div class="control-group">
-                                  <label class="control-label" for="selectError">Tipo Actividad:</label>
+                                  <label class="control-label" for="selectError">Tipo Actividad(*):</label>
                                   <div class="controls">
                                       <select name="selectError" id="selectError" data-rel="chosen">
                                           <option> Natacion </option>
@@ -116,29 +200,37 @@
 						  
 						  
 			              <div class="control-group">
-			                <label class="control-label" for="typeahead4">Encargado: </label>
+			                <label class="control-label" for="typeahead4">Encargado(*): </label>
 			                <div class="controls">
 			                  <input type="text" class="span6 typeahead" id="typeahead4"  data-provide="typeahead" data-items="4" >
 		                    </div>
 		                  </div>
 						  
 			              <div class="control-group">
-			                <label class="control-label" for="typeahead4">Tipo Encargado: </label>
+			                <label class="control-label" for="typeahead4">Profesion: </label>
 			                <div class="controls">
-			                  <input type="text" class="span6 typeahead" id="typeahead4"  data-provide="typeahead" data-items="4" >
+			                  <input disabled="" type="text" class="span6 typeahead" id="typeahead4"  data-provide="typeahead" data-items="4" >
 		                    </div>
 		                  </div>
 						  
 						  
-			              <div class="control-group">
-			                <label class="control-label" for="typeahead8">Ambiente: </label>
-			                <div class="controls">
-			                  <input type="text" class="span6 typeahead" id="typeahead8"  data-provide="typeahead" data-items="4" >
-		                    </div>
-		                  </div>
+
+						  
+							  <div class="control-group">
+                                  <label class="control-label" for="selectError">Ambiente(*): </label>
+                                  <div class="controls">
+                                      <select name="selectError" id="selectError1" data-rel="chosen">
+                                          <option> Piscina </option>
+										  <option> Playa </option>
+                                          <option> Area de tennis </option>
+                                          <option> chancas Voley </option>
+                                          <option> chancas Futbol </option>
+                                      </select>
+                                  </div>
+						      </div>
 						  
                           <div class="control-group">
-                                    <label class="control-label" for="date01">Fecha Inicio: </label>
+                                    <label class="control-label" for="date01">Fecha Inicio(*):</label>
                                     <div class="controls">
                                         <input type="text" class="input-xlarge datepicker" id="date01" value="02/16/12">
                                             </div>
@@ -146,14 +238,14 @@
                                 
                                 
                           <div class="control-group">
-                                    <label class="control-label" for="date01">Fecha fin: </label>
+                                    <label class="control-label" for="date01">Fecha fin(*):</label>
                                     <div class="controls">
                                         <input type="text" class="input-xlarge datepicker" id="date01" value="02/16/12">
                                             </div>
                           </div>
 								
                           <div class="control-group">
-                                    <label class="control-label" for="typeahead">Hora inicio: </label>
+                                    <label class="control-label" for="typeahead">Hora inicio:</label>
                                 <div class="controls">
                                         <input type="text" class="span6 typeahead" id="typeahead"  data-provide="typeahead" data-items="4" data-source='["Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut","Delaware","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey","New Mexico","New York","North Dakota","North Carolina","Ohio","Oklahoma","Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"]'>
                                             <!--
@@ -165,7 +257,7 @@
                                 
                                 
                           <div class="control-group">
-                                    <label class="control-label" for="typeahead">Hora Fin: </label>
+                                    <label class="control-label" for="typeahead">Hora Fin:</label>
                                 <div class="controls">
                                         <input type="text" class="span6 typeahead" id="typeahead"  data-provide="typeahead" data-items="4" data-source='["Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut","Delaware","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey","New Mexico","New York","North Dakota","North Carolina","Ohio","Oklahoma","Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"]'>
                                             <!--
@@ -187,21 +279,44 @@
                           </div>
 
 								
+						  
+							  
+							  
 							  <div class="control-group">
-								<label class="control-label" for="selectError1">Días de la Semana: </label>
+								<label class="control-label">Días de la Semana:</label>
 								<div class="controls">
-								  <select id="selectError1" multiple data-rel="chosen">
-									<option selected>Lunes</option>
-									<option >Martes</option>
-									<option>Miercoles</option>
-									<option>Jueves</option>
-									<option>Viernes</option>
-								  </select>
+								
+								  <label class="checkbox inline">
+									<input type="checkbox" id="inlineCheckbox1" value="option1">Lunes
+								  </label>
+								  
+								  
+								  <label class="checkbox inline">
+									<input type="checkbox" id="inlineCheckbox2" value="option2">Martes
+								  </label>
+								  
+								  
+								  <label class="checkbox inline">
+									<input type="checkbox" id="inlineCheckbox3" value="option3">Miercoles
+								  </label>
+								  
+								  <label class="checkbox inline">
+									<input type="checkbox" id="inlineCheckbox2" value="option2">Jueves
+								  </label>
+								  
+								  
+								  <label class="checkbox inline">
+									<input type="checkbox" id="inlineCheckbox3" value="option3">Viernes
+								  </label>
+								  
 								</div>
-							  </div>     
+							  </div> 
+							  
+							  
+							  
 
                                 <div class="control-group">
-                                    <label class="control-label" for="textarea2">Descripcion:</label>
+                                    <label class="control-label" for="textarea2">Descripción:</label>
                                     <div class="controls">
                                    
                                         <!--
@@ -218,9 +333,10 @@
 						
 						
 			            <div class="form-actions">
-			              <button type="submit" class="btn btn-primary">Guardar</button>
+			              <button type="submit" class="btn btn-primary">Agregar</button>
 			              <button type="reset" class="btn">Cancelar</button>
 		                </div>
+						(*)Campos Obligatorios
 		              </fieldset>
 		            </form>
 		          </div>
