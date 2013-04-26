@@ -137,9 +137,11 @@
 								<td>7:00-7:30</td>
 								</td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="/Conan3000/IngSoft/servicio/reservas/buscarreserva.jsp" >
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                      
+								
+					<!-- <li><a class="ajax-link" href="/Conan3000/IngSoft/servicio/reservas/buscarreserva.jsp"><i class="icon-wrench"></i><span class="hidden-tablet"> Reservas</span></a></li> -->
 									
 								</td>
 								<td class="center" align="center">
