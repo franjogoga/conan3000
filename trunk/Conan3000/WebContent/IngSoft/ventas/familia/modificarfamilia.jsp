@@ -12,7 +12,7 @@
 		http://twitter.com/halalit_usman
 	-->
 	<meta charset="utf-8">
-	<title>Modificar Familia</title>
+	<title>Modificar Familiar</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Charisma, a fully featured, responsive, HTML5, Bootstrap admin template.">
 	<meta name="author" content="Muhammad Usman">
@@ -120,28 +120,44 @@
 			                  <div class="controls">
 			                    <input type="text" class="span6 typeahead" id="typeahead3"  data-provide="typeahead" data-items="4">
 		                      </div>
-		                    </div>
+		                 
+		               
+		                      <div class="control-group">
+								<label class="control-label" for="typeahead3">Estado</label>
+								<div class="controls">
+								  <label class="radio">
+									<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+									Activo
+								  </label>
+								  <div style="clear:both"></div>
+								  <label class="radio">
+									<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+									Inactivo
+								  </label>
+								</div>
+							  </div>
+		                    
 			                <div class="control-group">
 			                  <label class="control-label" for="selectError">Parentesco:</label>
 			                  <div class="controls">
 			                    <select name="selectError" id="selectError" data-rel="chosen">
-			                      <option selected>Hija</option>
-			                      <option>Option 2</option>
-			                      <option>Option 3</option>
-			                      <option>Option 4</option>
-			                      <option>Option 5</option>
+			                      <option selected>Hija(o)</option>
+			                      <option>Padre</option>
+			                      <option>Madre</option>
+			                      <option>Hermano(a)</option>
+			                       <option>Nieto(a)</option>
 		                        </select>
 		                      </div>
 		                    </div>
 			              
 			              <div class="control-group">
-			                <label class="control-label" for="typeahead10">Teléfono/Celular:</label>
+			                <label class="control-label" for="typeahead10">Tel&eacute;fono/Celular:</label>
 			                <div class="controls">
 			                  <input type="text" class="span6 typeahead" id="typeahead10"  data-provide="typeahead" data-items="4">
 		                    </div>
 		                  </div>
 			              <div class="control-group">
-			                <label class="control-label" for="typeahead2">Correo electrónico:</label>
+			                <label class="control-label" for="typeahead2">Correo electr&oacute;nico:</label>
 			                <div class="controls">
 			                  <input type="text" class="span6 typeahead" id="typeahead2"  data-provide="typeahead" data-items="4" >
 		                    </div>
