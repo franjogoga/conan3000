@@ -263,7 +263,7 @@
 						
 						
 			            <div class="form-actions">
-			              <button type="submit" class="btn btn-primary">Agregar</button>
+			              <button type="submit" class="btn btn-primary">Buscar</button>
 			              <button type="reset" class="btn">Cancelar</button>
 		                </div>
 		              </fieldset>
