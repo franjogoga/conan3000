@@ -176,7 +176,7 @@
                           </div>
 								
                           <div class="control-group">
-                                    <label class="control-label" for="typeahead">Duración:</label>
+                                    <label class="control-label" for="typeahead">Duracion:</label>
                                     <div class="controls">
                                         <input disabled="" type="text" class="span6 typeahead" id="typeahead"  data-provide="typeahead" data-items="4" data-source='["Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut","Delaware","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey","New Mexico","New York","North Dakota","North Carolina","Ohio","Oklahoma","Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"]'>
                                             <!--
@@ -190,7 +190,7 @@
 							  
 							  
 							  <div class="control-group">
-								<label class="control-label">Días de la Semana:</label>
+								<label class="control-label">Dias de la Semana:</label>
 								<div class="controls">
 								
 								  <label class="checkbox inline">
@@ -220,7 +220,7 @@
 							  </div>   
 
                                 <div class="control-group">
-                                    <label class="control-label" for="textarea2">Descripción:</label>
+                                    <label class="control-label" for="textarea2">Descripcion:</label>
                                     <div class="controls">
                                    
                                         <!--
