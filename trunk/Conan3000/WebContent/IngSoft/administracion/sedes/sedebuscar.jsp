@@ -153,54 +153,11 @@
 						        </div>
 						      </div>
 
-							  <div class="control-group">
-								<label class="control-label" for="selectError1">Actividad: </label>
-								<div class="controls">
-								  <select       id="selectError1" multiple data-rel="chosen">
-									<option selected >Natacion</option>
-									<option>Voley</option>
-									<option>Basket</option>
-									<option>Futbol</option>
-									<option>Tenis</option>
-								  </select>
-								</div>
-							  </div>          
-
-
-							  <div class="control-group">
-								<label class="control-label" for="selectError2">Ambiente: </label>
-								<div class="controls">
-								  <select     id="selectError2" multiple data-rel="chosen">
-									<option selected>Piscina</option>
-									<option>Gymnacio</option>
-									<option>Playa</option>
-									<option>Area de Tenis</option>
-									<option>Cancha Futbol</option>
-								  </select>
-								</div>
-							  </div>
-
-
-								
-                                
-							  <div class="control-group">
-								<label class="control-label" for="selectError3">Consecionarios: </label>
-								<div class="controls">
-								  <select     id="selectError3" multiple data-rel="chosen">
-									<option selected >Sodexo</option>
-									<option>Bembos</option>
-									<option>Pizza Hut</option>
-									<option>KFC</option>
-									<option>Popeye</option>
-								  </select>
-								</div>
-							  </div>
-						
 						<!--    ----------------------------------------------------------------------------------------------    -->
 						
 						
 			            <div class="form-actions">
-			              <button type="submit" class="btn btn-primary">Agregar</button>
+			              <button type="submit" class="btn btn-primary">Buscar</button>
 			              <button type="reset" class="btn">Cancelar</button>
 		                </div>
 		              </fieldset>
