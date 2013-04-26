@@ -162,13 +162,13 @@
 			  <!-- content starts -->
 			  <div>
 			    <ul class="breadcrumb">
-			      <li> <a href="#">Home</a> / <a href="#">Mantenimiento de Actividad</a> / Agregar Actividad</li>
+			      <li> <a href="#">Home</a> / <a href="#">Mantenimiento de Actividad</a> / Eliminar Actividad</li>
 		        </ul>
 		      </div>
 			  <div class="row-fluid sortable">
 			    <div class="box span12">
 			      <div class="box-header well" data-original-title>
-			        <h2>AGREGAR ACTIVIDAD</h2>
+			        <h2>ELIMINAR ACTIVIDAD</h2>
 		          </div>
 			      <div class="box-content">
 			        <form class="form-horizontal">
@@ -176,7 +176,7 @@
 					  
 					  <!--    ----------------------------------------------------------------------------------------------    -->
 							<div class="control-group">
-							  <label class="control-label" for="typeahead7">Nombre(*): </label>
+							  <label class="control-label" for="typeahead7">Nombre: </label>
 							  <div class="controls">
 								<input disabled=""  type="text" class="span6 typeahead" id="typeahead7"  data-provide="typeahead" >
 							  </div>
@@ -184,9 +184,9 @@
 						
 						
 							  <div class="control-group">
-                                  <label class="control-label" for="selectError">Tipo Actividad(*):</label>
+                                  <label class="control-label" for="selectError">Tipo Actividad:</label>
                                   <div class="controls">
-                                      <select  disabled=""  name="selectError" id="selectError" data-rel="chosen">
+                                      <select disabled="" name="selectError" id="selectError" data-rel="chosen">
                                           <option> Natacion </option>
                                           <option> Basket </option>
                                           <option> Voley </option>
@@ -200,120 +200,89 @@
 						  
 						  
 			              <div class="control-group">
-			                <label class="control-label" for="typeahead4">Encargado(*): </label>
+			                <label class="control-label" for="typeahead4">Encargado: </label>
 			                <div class="controls">
-			                  <input type="text" class="span6 typeahead" id="typeahead4"  data-provide="typeahead" data-items="4" >
+			                  <input disabled=""  type="text" class="span6 typeahead" id="typeahead4"  data-provide="typeahead" data-items="4" >
 		                    </div>
 		                  </div>
 						  
 			              <div class="control-group">
-			                <label class="control-label" for="typeahead4">Profesion: </label>
+			                <label class="control-label" for="typeahead4">Tipo Encargado: </label>
 			                <div class="controls">
-			                  <input disabled="" type="text" class="span6 typeahead" id="typeahead4"  data-provide="typeahead" data-items="4" >
+			                  <input disabled=""  type="text" class="span6 typeahead" id="typeahead4"  data-provide="typeahead" data-items="4" >
 		                    </div>
 		                  </div>
 						  
 						  
-
-						  
-							  <div class="control-group">
-                                  <label class="control-label" for="selectError">Ambiente(*): </label>
-                                  <div class="controls">
-                                      <select disabled=""  name="selectError" id="selectError1" data-rel="chosen">
-                                          <option> Piscina </option>
-										  <option> Playa </option>
-                                          <option> Area de tennis </option>
-                                          <option> chancas Voley </option>
-                                          <option> chancas Futbol </option>
-                                      </select>
-                                  </div>
-						      </div>
+			              <div class="control-group">
+			                <label class="control-label" for="typeahead8">Ambiente: </label>
+			                <div class="controls">
+			                  <input disabled=""  type="text" class="span6 typeahead" id="typeahead8"  data-provide="typeahead" data-items="4" >
+		                    </div>
+		                  </div>
 						  
                           <div class="control-group">
-                                    <label class="control-label" for="date01">Fecha Inicio(*):</label>
-                                    <div class="controls">
-                                        <input  disabled=""  type="text" class="input-xlarge datepicker" id="date01" value="02/16/12">
-                                     </div>
+                              <label class="control-label" for="date01">Fecha Inicio:</label>
+                             <div class="controls">
+                               <input disabled=""  type="text" class="input-xlarge datepicker" id="date01" value="02/16/12">
+                             </div>
                           </div>
                                 
                                 
                           <div class="control-group">
-                                    <label class="control-label" for="date01">Fecha fin(*):</label>
-                                    <div class="controls">
-                                        <input disabled="" type="text" class="input-xlarge datepicker" id="date01" value="02/16/12">
-                                     </div>
+                               <label class="control-label" for="date01">Fecha fin:</label>
+                              <div class="controls">
+                                <input disabled=""  type="text" class="input-xlarge datepicker" id="date01" value="02/16/12">
+                              </div>
                           </div>
 								
                           <div class="control-group">
-                                    <label class="control-label" for="typeahead">Hora inicio:</label>
-                                <div class="controls">
-                                        <input  disabled=""  type="text" class="span6 typeahead" id="typeahead"  data-provide="typeahead" data-items="4" data-source='["Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut","Delaware","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey","New Mexico","New York","North Dakota","North Carolina","Ohio","Oklahoma","Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"]'>
+                              <label class="control-label" for="typeahead">Hora inicio:</label>
+                             <div class="controls">
+                             <input disabled="" type="text" class="span6 typeahead" id="typeahead"  data-provide="typeahead" data-items="4" data-source='["Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut","Delaware","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey","New Mexico","New York","North Dakota","North Carolina","Ohio","Oklahoma","Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"]'>
                                             <!--
                                              <p class="help-block">Start typing to activate auto complete!</p>
                                              
                                              -->
-								</div>			 
+							  </div>
                           </div>
                                 
                                 
                           <div class="control-group">
                                     <label class="control-label" for="typeahead">Hora Fin:</label>
-                                <div class="controls">
-                                        <input disabled=""  type="text" class="span6 typeahead" id="typeahead"  data-provide="typeahead" data-items="4" data-source='["Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut","Delaware","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey","New Mexico","New York","North Dakota","North Carolina","Ohio","Oklahoma","Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"]'>
+                                    <div class="controls">
+                                        <input disabled="" type="text" class="span6 typeahead" id="typeahead"  data-provide="typeahead" data-items="4" data-source='["Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut","Delaware","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey","New Mexico","New York","North Dakota","North Carolina","Ohio","Oklahoma","Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"]'>
                                             <!--
                                              <p class="help-block">Start typing to activate auto complete!</p>
                                              
                                              -->
-							    </div>
+									</div>
                           </div>
 								
                           <div class="control-group">
                                     <label class="control-label" for="typeahead">Duración:</label>
-                            <div class="controls">
-                                        <input  disabled="" type="text" class="span6 typeahead" id="typeahead"  data-provide="typeahead" data-items="4" data-source='["Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut","Delaware","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey","New Mexico","New York","North Dakota","North Carolina","Ohio","Oklahoma","Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"]'>
+                                    <div class="controls">
+                                        <input disabled="" type="text" class="span6 typeahead" id="typeahead"  data-provide="typeahead" data-items="4" data-source='["Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut","Delaware","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey","New Mexico","New York","North Dakota","North Carolina","Ohio","Oklahoma","Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"]'>
                                             <!--
                                              <p class="help-block">Start typing to activate auto complete!</p>
                                              
                                              -->
-							</div>
+									</div>
                           </div>
 
 								
-						  
-							  
-							  
 							  <div class="control-group">
-								<label class="control-label">Días de la Semana:</label>
+								<label class="control-label" for="selectError1">Días de la Semana:</label>
 								<div class="controls">
-								
-								  <label class="checkbox inline">
-									<input disabled="" type="checkbox" id="inlineCheckbox1" value="option1">Lunes
-								  </label>
-								  
-								  
-								  <label class="checkbox inline">
-									<input disabled=""  type="checkbox" id="inlineCheckbox2" value="option2">Martes
-								  </label>
-								  
-								  
-								  <label class="checkbox inline">
-									<input disabled="" type="checkbox" id="inlineCheckbox3" value="option3">Miercoles
-								  </label>
-								  
-								  <label class="checkbox inline">
-									<input disabled="" type="checkbox" id="inlineCheckbox2" value="option2">Jueves
-								  </label>
-								  
-								  
-								  <label class="checkbox inline">
-									<input disabled="" type="checkbox" id="inlineCheckbox3" value="option3">Viernes
-								  </label>
-								  
+								  <select disabled="" id="selectError1" multiple data-rel="chosen">
+									<option selected>Lunes</option>
+									<option >Martes</option>
+									<option>Miercoles</option>
+									<option>Jueves</option>
+									<option>Viernes</option>
+								  </select>
 								</div>
-							  </div> 
-							  
-							  
-							  
+							  </div>     
 
                                 <div class="control-group">
                                     <label class="control-label" for="textarea2">Descripción:</label>
@@ -323,7 +292,7 @@
                                         <textarea class="cleditor" id="textarea2" rows="3"></textarea>
                                         -->
                                         
-                                        <textarea  disabled=""  class="" id="textarea2" rows="3"></textarea>
+                                        <textarea disabled="" class="" id="textarea2" rows="3"></textarea>
                                    
                                     </div>
                                 </div>
@@ -333,10 +302,9 @@
 						
 						
 			            <div class="form-actions">
-			              <button type="submit" class="btn btn-primary">Agregar</button>
+			              <button type="submit" class="btn btn-primary">Eliminar</button>
 			              <button type="reset" class="btn">Cancelar</button>
 		                </div>
-						(*)Campos Obligatorios
 		              </fieldset>
 		            </form>
 		          </div>
