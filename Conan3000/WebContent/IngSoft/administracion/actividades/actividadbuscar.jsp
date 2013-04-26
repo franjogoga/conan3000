@@ -224,9 +224,9 @@
 							  <tr>
 								  <th>Nombre Actividad</th>
 								  <th>Fecha de inicio</th>
-								  <th>Fecha de Fin</th>
+								  <th>Accion</th>
 
-								  <th>Acción</th>
+								  
 							  </tr>
 						  </thead>   
 						  <tbody>
