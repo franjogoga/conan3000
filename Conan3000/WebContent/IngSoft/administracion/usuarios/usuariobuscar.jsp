@@ -168,7 +168,7 @@
 		        <div class="box-content">
 		          <table class="table table-striped table-bordered bootstrap-datatable datatable">
 		            <!-- agregar nuevo boton -->
-		            <div  align="right"> <a class="btn btn-primary" href="#"> <i class="icon icon-add icon-white"></i> Agregar </a> </div>
+		            <div  align="right"> <a class="btn btn-primary" href="usuarioagregar.jsp"> <i class="icon icon-add icon-white"></i> Agregar </a> </div>
 		            <thead>
 		              <tr>
 		                <th width="13%">Nombre</th>
@@ -184,7 +184,7 @@
 		                <td class="center">USU_00232 </td>
 		                <td class="center">Administrador</td>
 		                <td class="center"><span class="label label-success">Activo</span></td>
-		                <td class="center"><a class="btn btn-success" href="usuarioagregar.jsp"> <i class="icon-zoom-in icon-white"></i> Ver </a> <a class="btn btn-info" href="usuariomodificar.jsp"> <i class="icon-edit icon-white"></i> Modificar </a> <a class="btn btn-danger" href="usuarioeliminar.jsp"> <i class="icon-trash icon-white"></i> Eliminar </a></td>
+		                <td class="center"><a class="btn btn-success" href="#"> <i class="icon-zoom-in icon-white"></i> Ver </a> <a class="btn btn-info" href="usuariomodificar.jsp"> <i class="icon-edit icon-white"></i> Modificar </a> <a class="btn btn-danger" href="usuarioeliminar.jsp"> <i class="icon-trash icon-white"></i> Eliminar </a></td>
 	                  </tr>
 		              
 	                </tbody>
