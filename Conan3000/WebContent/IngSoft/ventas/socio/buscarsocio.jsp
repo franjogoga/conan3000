@@ -174,7 +174,7 @@
                         
                         
                         <div  align="right">
-                                <a class="btn btn-primary" href="#">
+                                <a class="btn btn-primary" href="/Conan3000/IngSoft/ventas/socio/agregarsocio.jsp">
                                     <i class="icon icon-add icon-white"></i>
                                     Agregar
                                 </a>
