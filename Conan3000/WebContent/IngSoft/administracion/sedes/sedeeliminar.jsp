@@ -126,7 +126,7 @@
 						      </div>
 						  
 						    <div class="control-group">
-						      <label class="control-label" for="typeahead7">Dirección: </label>
+						      <label class="control-label" for="typeahead7">Direccion: </label>
 						      <div class="controls">
 						        <input disabled=""  type="text" class="span6 typeahead" id="typeahead7"  data-provide="typeahead" >
 					          </div>
