@@ -12,7 +12,9 @@
 <meta name="templateframework" content="Gantry Framework for Joomla!"/>
 <meta name="generator" content="Joomla! - Open Source Content Management"/>
 <title>Solicitar evento</title>
+<link rel="shortcut icon" href="images/icon_club.png">
 <link rel="stylesheet" href="css/modal.css" type="text/css"/>
+<link rel="stylesheet" href="css/modalcustom.css" type="text/css"/>
 <link rel="stylesheet" href="css/calendar-jos.css" type="text/css" title="Green" media="all"/>
 <link rel="stylesheet" href="css/rokbox-style.css" type="text/css"/>
 <link rel="stylesheet" href="css/superfish.css" type="text/css"/>
@@ -230,8 +232,8 @@ var rokboxPath = 'http://livedemo00.template-help.com/joomla_43780/plugins/syste
 	</script>
 	<!--<![endif]-->
 <ul class="sf-menu ">
-<li class="item-101"><a href="index.html" >Home</a></li><li class="item-116 deeper parent"><a href="about.html" >About Us</a><ul><li class="item-127"><a href="our-history.html" >Our history</a></li><li class="item-123"><a href="faqs.html" >FAQs</a></li></ul></li><li class="item-117"><a href="services.html" >Services</a></li><li class="item-118 deeper parent"><span class="separator">Gallery</span>
-<ul><li class="item-119"><a href="columns-2.html" >Columns 2</a></li><li class="item-120"><a href="columns-3.html" >Columns 3</a></li><li class="item-121"><a href="columns-4.html" >Columns 4</a></li></ul></li><li class="item-122"><a href="testimonials.html" >Testimonials</a></li><li class="item-126"><a href="staff.html" >Staff</a></li><li class="item-114"><a href="contacts.html" >Contacts</a></li><div class="clear"></div></ul>
+<jsp:include page="/Club/general/menu.jsp" />
+</ul>
 <script type="text/javascript">
 	// initialise plugins
 	jQuery(function(){
@@ -311,7 +313,7 @@ var rokboxPath = 'http://livedemo00.template-help.com/joomla_43780/plugins/syste
 			<!-- K2 attached fields -->
 			<dl>
 				<dt class="key"><label id="emailmsg" for="email">Tipo de evento</label></dt>
-				<dd><input type="text" id="email" name="" size="40" value="" class="inputbox required" maxlength="100" /> *</dd>
+				<dd><a href="#openModal"><input type="text" id="email" name="" size="40" value="" class="inputbox required" maxlength="100" /></a> *</dd>
 				<dt class="key"><label id="email2msg" for="email2">Sede</label></dt>
 				<dd><input type="text" id="email2" name="jform[email2]" size="40" value="" class="inputbox required" maxlength="100" />*</dd>
 				<dt class="key"><label id="pwmsg" for="password">Ambientes a utilizar</label></dt>
@@ -334,61 +336,22 @@ var rokboxPath = 'http://livedemo00.template-help.com/joomla_43780/plugins/syste
 <div class="toggle-editor">
 <div class="button2-left"><div class="blank"><a href="#" onclick="tinyMCE.execCommand('mceToggleEditor', false, 'description');return false;" title="Toggle editor">Toggle editor</a></div></div></div>
 </dd>
-				<dt class="key"><label id="imagemsg" for="image">User image (avatar)</label></dt>
-				<dd>
-					<input type="file" id="image" name="image"/>
-									</dd>
-				<dt class="key"><label id="urlmsg" for="url">URL</label></dt>
-				<dd><input type="text" size="50" value="" name="url" id="url"/></dd>
+				
 			</dl>
 <!-- Joomla! 1.6+ JForm implementation -->
-																							<h3 class="k2ProfileHeading">
-							User Profile						</h3>
-										<dl>
-																			<dt class="key">
-									<label id="jform_profile_address1-lbl" for="jform_profile_address1" class="hasTip" title="Address 1::Choose an option for the field Address1">Address 1:</label>																			<span class="optional">(optional)</span>
-																	</dt>
-								<dd><input type="text" name="jform[profile][address1]" id="jform_profile_address1" value="" class="inputbox" size="30"/></dd>
-																									<dt class="key">
-									<label id="jform_profile_address2-lbl" for="jform_profile_address2" class="hasTip" title="Address 2::Choose an option for the field Address2">Address 2:</label>																			<span class="optional">(optional)</span>
-																	</dt>
-								<dd><input type="text" name="jform[profile][address2]" id="jform_profile_address2" value="" class="inputbox" size="30"/></dd>
-																									<dt class="key">
-									<label id="jform_profile_city-lbl" for="jform_profile_city" class="hasTip" title="City::Choose an option for the field City">City:</label>																			<span class="optional">(optional)</span>
-																	</dt>
-								<dd><input type="text" name="jform[profile][city]" id="jform_profile_city" value="" class="inputbox" size="30"/></dd>
-																									<dt class="key">
-									<label id="jform_profile_region-lbl" for="jform_profile_region" class="hasTip" title="Region::Choose an option for the field Region">Region:</label>																			<span class="optional">(optional)</span>
-																	</dt>
-								<dd><input type="text" name="jform[profile][region]" id="jform_profile_region" value="" class="inputbox" size="30"/></dd>
-																									<dt class="key">
-									<label id="jform_profile_country-lbl" for="jform_profile_country" class="hasTip" title="Country::Choose an option for the field Country">Country:</label>																			<span class="optional">(optional)</span>
-																	</dt>
-								<dd><input type="text" name="jform[profile][country]" id="jform_profile_country" value="" class="inputbox" size="30"/></dd>
-																									<dt class="key">
-									<label id="jform_profile_postal_code-lbl" for="jform_profile_postal_code" class="hasTip" title="Postal / ZIP Code::Choose an option for the field Postal Code">Postal / ZIP Code:</label>																			<span class="optional">(optional)</span>
-																	</dt>
-								<dd><input type="text" name="jform[profile][postal_code]" id="jform_profile_postal_code" value="" class="inputbox" size="30"/></dd>
-																									<dt class="key">
-									<label id="jform_profile_phone-lbl" for="jform_profile_phone" class="hasTip" title="Phone::Choose an option for the field Phone">Phone:</label>																			<span class="optional">(optional)</span>
-																	</dt>
-								<dd><input type="text" name="jform[profile][phone]" id="jform_profile_phone" value="" size="30"/></dd>
-																									<dt class="key">
-									<label id="jform_profile_website-lbl" for="jform_profile_website" class="hasTip" title="Web site::Choose an option for the field Web Site">Web site:</label>																			<span class="optional">(optional)</span>
-																	</dt>
-								<dd><input type="text" name="jform[profile][website]" id="jform_profile_website" value="" size="30"/></dd>
-																									<dt class="key">
-									<label id="jform_profile_favoritebook-lbl" for="jform_profile_favoritebook" class="hasTip" title="Favourite Book::Choose an option for the field Favourite Book">Favourite Book:</label>																			<span class="optional">(optional)</span>
-																	</dt>
-								<dd><input type="text" name="jform[profile][favoritebook]" id="jform_profile_favoritebook" value="" class="inputbox" size="30"/></dd>
-																									<dt class="key">
-									<label id="jform_profile_aboutme-lbl" for="jform_profile_aboutme" class="hasTip" title="About Me::Choose an option for the field About Me.">About Me:</label>																			<span class="optional">(optional)</span>
-																	</dt>
-								<dd><textarea name="jform[profile][aboutme]" id="jform_profile_aboutme" cols="30" rows="5"></textarea></dd>
-																									<dt class="key">
-									
-																</dl>
-		<div class="k2AccountPageNotice">Fields marked with an asterisk (*) are required.</div>
+
+<!-- modal -->
+
+<div id="openModal" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="mclose">X</a>
+		<h2>Lista de eventos disponibles</h2>
+		<p>This is a sample modal box that can be created using the powers of CSS3.</p>
+		<p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
+	</div>
+</div>									
+<!-- modal end -->																
+		<div class="k2AccountPageNotice">Campos con asterisco(*) son obligatorios.</div>
 		<div class="k2AccountPageUpdate">
 			<button class="button validate" type="submit">
 				Register			</button>
