@@ -78,7 +78,7 @@
 			  <!-- content starts -->
 			  <div>
 			    <ul class="breadcrumb">
-			      <li> <a href="#">Home</a> / <a href="#">Mantenimiento de Membresías</a> / Agregar Membresía</li>
+			      <li> <a href="#">Home</a> / <a href="buscarmembresia.jsp">Mantenimiento de Membresías</a> / Agregar Membresía</li>
 		        </ul>
 		      </div>
 			  <div class="row-fluid sortable">
