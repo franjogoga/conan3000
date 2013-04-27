@@ -174,7 +174,7 @@
 						
 			            <div class="form-actions">
 			              <button type="submit" class="btn btn-primary">Agregar</button>
-			              <button type="reset" class="btn">Cancelar</button>
+			              <a href="buscarempleado.jsp" ><button type="reset" class="btn">Cancelar</button></a>
 		                </div>
 		              </fieldset>
 		            </form>
