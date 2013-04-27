@@ -90,7 +90,7 @@
 			        <form class="form-horizontal">
 			          <fieldset>
 			          <div class="control-group">
-			                <label class="control-label" for="typeahead9">Promoci&ocuote;n(*): </label>
+			                <label class="control-label" for="typeahead9">Promoci&oacute;n(*): </label>
 			                <div class="controls">
 			                  <input type="text" class="span6 typeahead" id="typeahead9"  data-provide="typeahead" data-items="4" >
 			                  <p class="help-block">Escriba sobre la casilla un nombre de la promoci&ocuote;n para ser autocompletado</p>
