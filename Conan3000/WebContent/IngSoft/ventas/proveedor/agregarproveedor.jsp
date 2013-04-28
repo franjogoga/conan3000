@@ -77,7 +77,7 @@
 		    <!-- content starts -->
 		    <div>
 		      <ul class="breadcrumb">
-		        <li> <a href="#">Home</a> / <a href="#">Mantenimiento de Proveedores</a> / Agregar Proveedor</li>
+		        <li> <a href="#">Home</a> / <a href="bucarproveedor.jsp">Mantenimiento de Proveedores</a> / Agregar Proveedor</li>
 	          </ul>
 	        </div>
 		    <div class="row-fluid sortable">
@@ -89,7 +89,7 @@
 		          <form class="form-horizontal">
 		            <fieldset>
 		              <div class="control-group">
-		                <label class="control-label" for="typeahead7">Razón Social (*):</label>
+		                <label class="control-label" for="typeahead7">Raz&oacute;n Social (*):</label>
 		                <div class="controls">
 		                  <input type="text" class="span6 typeahead" id="typeahead7"  data-provide="typeahead" >
 		                </div>
@@ -102,7 +102,7 @@
 		                  </div>
 	                    </div>
 		                <div class="control-group">
-		                  <label class="control-label" for="typeahead4">Dirección: </label>
+		                  <label class="control-label" for="typeahead4">Direcci&oacute;n: </label>
 		                  <div class="controls">
 		                    <input type="text" class="span6 typeahead" id="typeahead4"  data-provide="typeahead" data-items="4" >
 		                  </div>
@@ -135,13 +135,13 @@
 		                  </div>
 	                    </div>
 		                <div class="control-group">
-		                  <label class="control-label" for="typeahead8">Teléfono / Celular: </label>
+		                  <label class="control-label" for="typeahead8">Tel&eacute;fono / Celular: </label>
 		                  <div class="controls">
 		                    <input type="text" class="span6 typeahead" id="typeahead8"  data-provide="typeahead" data-items="4" >
 		                  </div>
 	                    </div>
 		                <div class="control-group">
-		                  <label class="control-label" for="typeahead9">Correo electrónico: </label>
+		                  <label class="control-label" for="typeahead9">Correo electr&oacute;nico: </label>
 		                  <div class="controls">
 		                    <input type="text" class="span6 typeahead" id="typeahead9"  data-provide="typeahead" data-items="4" >
 		                  </div>

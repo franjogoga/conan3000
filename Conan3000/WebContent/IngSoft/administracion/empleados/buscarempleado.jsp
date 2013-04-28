@@ -192,7 +192,7 @@
 						<td class="center">02/16/2014</td>
 		                <td class="center">L-V 8-10HS</td>
 		                <td class="center">Los Olivos</td>
-		                <td class="center"><a class="btn btn-success" href="#"> <i class="icon-zoom-in icon-white"></i> Ver </a> <a class="btn btn-info" href="ModificarEvento.jsp"> <i class="icon-edit icon-white"></i> Modificar </a> <a class="btn btn-danger" href="EliminarEvento.jsp"> <i class="icon-trash icon-white"></i> Eliminar </a></td>
+		                <td class="center"><a class="btn btn-success" href="#"> <i class="icon-zoom-in icon-white"></i> Ver </a> <a class="btn btn-info" href="modificarempleado.jsp"> <i class="icon-edit icon-white"></i> Modificar </a> <a class="btn btn-danger" href="eliminarempleado.jsp"> <i class="icon-trash icon-white"></i> Eliminar </a></td>
 	                  </tr>					  
 		              <tr>
 		                <td>Jose Sanchez</td>
@@ -202,7 +202,7 @@
 						<td class="center">05/11/2014</td>
 		                <td class="center">L-V 7-15HS</td>
 		                <td class="center">Cercado</td>
-		                <td class="center"><a class="btn btn-success" href="#"> <i class="icon-zoom-in icon-white"></i> Ver </a> <a class="btn btn-info" href="ModificarEvento.jsp"> <i class="icon-edit icon-white"></i> Modificar </a> <a class="btn btn-danger" href="EliminarEvento.jsp"> <i class="icon-trash icon-white"></i> Eliminar </a></td>
+		                <td class="center"><a class="btn btn-success" href="#"> <i class="icon-zoom-in icon-white"></i> Ver </a> <a class="btn btn-info" href="modificarempleado.jsp"> <i class="icon-edit icon-white"></i> Modificar </a> <a class="btn btn-danger" href="eliminarempleado.jsp"> <i class="icon-trash icon-white"></i> Eliminar </a></td>
 	                  </tr>
 		              <tr>
 		                <td>Raul Bermudez</td>
@@ -212,7 +212,7 @@
 						<td class="center">05/11/2014</td>
 		                <td class="center">L-V 10-15HS</td>
 		                <td class="center">Miraflores</td>
-		                <td class="center"><a class="btn btn-success" href="#"> <i class="icon-zoom-in icon-white"></i> Ver </a> <a class="btn btn-info" href="ModificarEvento.jsp"> <i class="icon-edit icon-white"></i> Modificar </a> <a class="btn btn-danger" href="EliminarEvento.jsp"> <i class="icon-trash icon-white"></i> Eliminar </a></td>
+		                <td class="center"><a class="btn btn-success" href="#"> <i class="icon-zoom-in icon-white"></i> Ver </a> <a class="btn btn-info" href="modificarempleado.jsp"> <i class="icon-edit icon-white"></i> Modificar </a> <a class="btn btn-danger" href="eliminarempleado.jsp"> <i class="icon-trash icon-white"></i> Eliminar </a></td>
 	                  </tr>
 	                </tbody>
 	              </table>
