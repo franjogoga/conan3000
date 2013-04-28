@@ -145,26 +145,26 @@
 									
 								</td>
 								<td class="center" align="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									
 								</td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									
 								</td>
                                 </td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									
 								</td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
@@ -172,14 +172,14 @@
 								</td>
                                 </td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									
 								</td>
                                 </td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									
@@ -190,14 +190,14 @@
 							<tr>
 								<td>7:30-8:00</td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 									
 								</td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
@@ -205,34 +205,34 @@
 								</td>
 								</td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									
 								</td>
                                 </td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									
 								</td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 						
 								</td>
                                 <td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 						
 								</td>
                                 <td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
@@ -248,14 +248,14 @@
 									</a>
 								</td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 									
 								</td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
@@ -278,14 +278,14 @@
 									</a>
 								</td>
                                 <td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 						
 								</td>
                                 <td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
@@ -302,14 +302,14 @@
 									</a>
 								</td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 									
 								</td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
@@ -353,28 +353,28 @@
 									</a>
 								</td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 									
 								</td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 									
 								</td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									
 								</td>
                                 </td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									
@@ -395,14 +395,14 @@
 							<tr>
 								<td>9:30-10:00</td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 									
 								</td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
@@ -415,7 +415,7 @@
 									</a>
 								</td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
@@ -423,7 +423,7 @@
 								</td>
                                 </td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									
@@ -444,14 +444,14 @@
 							<tr>
 								<td>10:00-10:30</td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 									
 								</td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
@@ -464,19 +464,19 @@
 									</a>
 								</td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
                               <td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 						
 							  </td>
                                 <td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
@@ -487,7 +487,7 @@
 								</td>
                                 </td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									
@@ -496,14 +496,14 @@
 							<tr>
 								<td>10:30-11:00</td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 									
 								</td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
@@ -516,7 +516,7 @@
 									</a>
 								</td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
@@ -524,20 +524,20 @@
 								</td>
                                 </td>
 								<td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									
 								</td>
                                 <td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>
 						
 								</td>
                                 <td class="center">
-									<a class="btn btn-success" href="#">
+									<a class="btn btn-success" href="formularioreservas.jsp">
 										<i class="icon-ok icon-white"></i>  
 										Reservar&nbsp;&nbsp;&nbsp;&nbsp;                                             
 									</a>

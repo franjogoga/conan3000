@@ -113,7 +113,7 @@
 								</div>
 							  </div>
                                <div class="control-group">
-								<label class="control-label" for="focusedInput">Teléfono</label>
+								<label class="control-label" for="focusedInput">Tel&eacute;fono</label>
 								<div class="controls">
 								  <input class="input-xlarge focused" id="focusedInput" type="text" value="">
 								</div>
