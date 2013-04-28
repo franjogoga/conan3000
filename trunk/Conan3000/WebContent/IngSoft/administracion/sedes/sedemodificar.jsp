@@ -117,7 +117,7 @@
 
 						
 							  <div class="control-group">
-                                  <label class="control-label" for="selectError">Provincia(*):</label>
+                                  <label class="control-label" for="selectError10">Provincia(*):</label>
                                   <div class="controls">
                                       <select    name="selectError1" id="selectError10" data-rel="chosen">
                                           <option> Lima </option>
